@@ -56,6 +56,26 @@ void running() {
 }
 
 
+void running2() {
+    float distanceKm, timeHours;
+    int timeMinutes, timeSeconds, ret;
+
+    printf("Distance covered in km: ");
+    scanf("%f", &distanceKm);
+    getchar();
+    printf("Time taken (minutes): ");
+    scanf("%d", &timeMinutes);
+    getchar();
+    printf("Time taken (seconds): ");
+    scanf("%d", &timeSeconds);
+    getchar();
+
+    timeHours = (timeSeconds/60.0 + timeMinutes) / 60.0;
+
+    printf("Average pace: %.2f km/h \n", distanceKm / timeHours);
+}
+
+
 void circle() {
     const float PI = 3.141592;
     float radius, circumference, area;
@@ -85,7 +105,7 @@ void calculateAge() {
 
 
 void circle2() {
-    const float PI = 3.141592;
+    const double PI = 3.141592;
     float radius, circumference, area;
 
     printf("Enter a radius: ");
@@ -100,9 +120,34 @@ void circle2() {
 }
 
 
+void printCharCodes() {
+    char input;
+
+    printf("Enter any character: ");
+    scanf("%c", &input);
+    getchar();
+
+    printf("Entered character is %c and its ASCII code is %d \n", input, input);
+}
+
+
+void incrementAndDecrementOperators() {
+    int a = 1;
+    float b = 1.25;
+
+    printf("a: %d \n", a);          // 1
+    printf("++a: %d \n", ++a);      // 2        -- prefix increment operator (increments the value of a and then returns the incremented value)
+    printf("a++: %d \n", a++);      // 2        -- postfix increment operator (returns the value of a and then increments the value of a)
+    printf("--a: %d \n\n", --a);    // 2
+    printf("a--: %d \n", a--);      // 2
+
+    printf("b: %.2f \n", b);        // 1.25
+    printf("++b: %.2f \n", ++b);    // 2.25
+}
+
 
 int main(void) {
-    calculateAge();
+    incrementAndDecrementOperators();
 
     return 0;
 }

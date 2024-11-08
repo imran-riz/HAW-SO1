@@ -103,35 +103,97 @@ build Calculator: C_EXECUTABLE_LINKER__Calculator_Debug CMakeFiles/Calculator.di
   TARGET_PDB = Calculator.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Lec3
+# Object build statements for EXECUTABLE target Lec2
 
 
 #############################################
-# Order-only phony target for Lec3
+# Order-only phony target for Lec2
 
-build cmake_object_order_depends_target_Lec3: phony || .
+build cmake_object_order_depends_target_Lec2: phony || .
 
-build CMakeFiles/Lec3.dir/LectureStuff/Lec3.c.o: C_COMPILER__Lec3_unscanned_Debug /Users/imran.rizwan/Documents/Uni/UniWorkC/LectureStuff/Lec3.c || cmake_object_order_depends_target_Lec3
-  DEP_FILE = CMakeFiles/Lec3.dir/LectureStuff/Lec3.c.o.d
+build CMakeFiles/Lec2.dir/LectureStuff/Lec2.c.o: C_COMPILER__Lec2_unscanned_Debug /Users/imran.rizwan/Documents/Uni/UniWorkC/LectureStuff/Lec2.c || cmake_object_order_depends_target_Lec2
+  DEP_FILE = CMakeFiles/Lec2.dir/LectureStuff/Lec2.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/Lec3.dir
-  OBJECT_FILE_DIR = CMakeFiles/Lec3.dir/LectureStuff
+  OBJECT_DIR = CMakeFiles/Lec2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lec2.dir/LectureStuff
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Lec3
+# Link build statements for EXECUTABLE target Lec2
 
 
 #############################################
-# Link the executable Lec3
+# Link the executable Lec2
 
-build Lec3: C_EXECUTABLE_LINKER__Lec3_Debug CMakeFiles/Lec3.dir/LectureStuff/Lec3.c.o
+build Lec2: C_EXECUTABLE_LINKER__Lec2_Debug CMakeFiles/Lec2.dir/LectureStuff/Lec2.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
-  OBJECT_DIR = CMakeFiles/Lec3.dir
+  OBJECT_DIR = CMakeFiles/Lec2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Lec3
-  TARGET_PDB = Lec3.dbg
+  TARGET_FILE = Lec2
+  TARGET_PDB = Lec2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AfterLec2
+
+
+#############################################
+# Order-only phony target for AfterLec2
+
+build cmake_object_order_depends_target_AfterLec2: phony || .
+
+build CMakeFiles/AfterLec2.dir/Exercises/AfterLec2.c.o: C_COMPILER__AfterLec2_unscanned_Debug /Users/imran.rizwan/Documents/Uni/UniWorkC/Exercises/AfterLec2.c || cmake_object_order_depends_target_AfterLec2
+  DEP_FILE = CMakeFiles/AfterLec2.dir/Exercises/AfterLec2.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AfterLec2.dir
+  OBJECT_FILE_DIR = CMakeFiles/AfterLec2.dir/Exercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AfterLec2
+
+
+#############################################
+# Link the executable AfterLec2
+
+build AfterLec2: C_EXECUTABLE_LINKER__AfterLec2_Debug CMakeFiles/AfterLec2.dir/Exercises/AfterLec2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/AfterLec2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AfterLec2
+  TARGET_PDB = AfterLec2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AfterLec3
+
+
+#############################################
+# Order-only phony target for AfterLec3
+
+build cmake_object_order_depends_target_AfterLec3: phony || .
+
+build CMakeFiles/AfterLec3.dir/Exercises/AfterLec3.c.o: C_COMPILER__AfterLec3_unscanned_Debug /Users/imran.rizwan/Documents/Uni/UniWorkC/Exercises/AfterLec3.c || cmake_object_order_depends_target_AfterLec3
+  DEP_FILE = CMakeFiles/AfterLec3.dir/Exercises/AfterLec3.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AfterLec3.dir
+  OBJECT_FILE_DIR = CMakeFiles/AfterLec3.dir/Exercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AfterLec3
+
+
+#############################################
+# Link the executable AfterLec3
+
+build AfterLec3: C_EXECUTABLE_LINKER__AfterLec3_Debug CMakeFiles/AfterLec3.dir/Exercises/AfterLec3.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
+  OBJECT_DIR = CMakeFiles/AfterLec3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AfterLec3
+  TARGET_PDB = AfterLec3.dbg
 
 
 #############################################
@@ -167,7 +229,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug
 
-build all: phony Main Calculator Lec3
+build all: phony Main Calculator Lec2 AfterLec2 AfterLec3
 
 # =============================================================================
 # Built-in targets
