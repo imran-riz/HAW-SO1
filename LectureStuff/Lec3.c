@@ -10,8 +10,18 @@ void divisionByDifferentTypes() {
 }
 
 
+void relationalOperators() {
+    int a = 7, b = 4;
+    int paranthesis = (a > b) == (a <= b);          // simplifies to: T == F -> F
+
+    printf("true: %d \n", 1==1);
+    printf("false: %d \n", 1!=1);
+    printf("paranthesis: %d \n", paranthesis);
+    printf("Precedence: %d \n", a > b == a <= b);
+}
+
 
 int main(void) {
-    divisionByDifferentTypes();
+    relationalOperators();
     return 0;
 }

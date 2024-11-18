@@ -31,5 +31,5 @@ void resistorsParallel() {
 
 
 int main() {
-    return 0;
+    binaryWeights();
 }
