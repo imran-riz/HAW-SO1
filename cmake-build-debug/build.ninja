@@ -350,6 +350,130 @@ build Question_14_2: C_EXECUTABLE_LINKER__Question_14_2_Debug CMakeFiles/Questio
   TARGET_FILE = Question_14_2
   TARGET_PDB = Question_14_2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Dice
+
+
+#############################################
+# Order-only phony target for Dice
+
+build cmake_object_order_depends_target_Dice: phony || .
+
+build CMakeFiles/Dice.dir/Exercises/AfterLec5/Dice.c.o: C_COMPILER__Dice_unscanned_Debug /Users/imran.rizwan/Documents/Uni/UniWorkC/Exercises/AfterLec5/Dice.c || cmake_object_order_depends_target_Dice
+  DEP_FILE = CMakeFiles/Dice.dir/Exercises/AfterLec5/Dice.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Dice.dir
+  OBJECT_FILE_DIR = CMakeFiles/Dice.dir/Exercises/AfterLec5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Dice
+
+
+#############################################
+# Link the executable Dice
+
+build Dice: C_EXECUTABLE_LINKER__Dice_Debug CMakeFiles/Dice.dir/Exercises/AfterLec5/Dice.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/Dice.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Dice
+  TARGET_PDB = Dice.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AfterLec6
+
+
+#############################################
+# Order-only phony target for AfterLec6
+
+build cmake_object_order_depends_target_AfterLec6: phony || .
+
+build CMakeFiles/AfterLec6.dir/Exercises/AfterLec6.c.o: C_COMPILER__AfterLec6_unscanned_Debug /Users/imran.rizwan/Documents/Uni/UniWorkC/Exercises/AfterLec6.c || cmake_object_order_depends_target_AfterLec6
+  DEP_FILE = CMakeFiles/AfterLec6.dir/Exercises/AfterLec6.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AfterLec6.dir
+  OBJECT_FILE_DIR = CMakeFiles/AfterLec6.dir/Exercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AfterLec6
+
+
+#############################################
+# Link the executable AfterLec6
+
+build AfterLec6: C_EXECUTABLE_LINKER__AfterLec6_Debug CMakeFiles/AfterLec6.dir/Exercises/AfterLec6.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/AfterLec6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AfterLec6
+  TARGET_PDB = AfterLec6.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CleanInput
+
+
+#############################################
+# Order-only phony target for CleanInput
+
+build cmake_object_order_depends_target_CleanInput: phony || .
+
+build CMakeFiles/CleanInput.dir/LectureStuff/Lec5/CleanInput.c.o: C_COMPILER__CleanInput_unscanned_Debug /Users/imran.rizwan/Documents/Uni/UniWorkC/LectureStuff/Lec5/CleanInput.c || cmake_object_order_depends_target_CleanInput
+  DEP_FILE = CMakeFiles/CleanInput.dir/LectureStuff/Lec5/CleanInput.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CleanInput.dir
+  OBJECT_FILE_DIR = CMakeFiles/CleanInput.dir/LectureStuff/Lec5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CleanInput
+
+
+#############################################
+# Link the executable CleanInput
+
+build CleanInput: C_EXECUTABLE_LINKER__CleanInput_Debug CMakeFiles/CleanInput.dir/LectureStuff/Lec5/CleanInput.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/CleanInput.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CleanInput
+  TARGET_PDB = CleanInput.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LeibnizSeries
+
+
+#############################################
+# Order-only phony target for LeibnizSeries
+
+build cmake_object_order_depends_target_LeibnizSeries: phony || .
+
+build CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5/LeibnizSeries.c.o: C_COMPILER__LeibnizSeries_unscanned_Debug /Users/imran.rizwan/Documents/Uni/UniWorkC/Exercises/AfterLec5/LeibnizSeries.c || cmake_object_order_depends_target_LeibnizSeries
+  DEP_FILE = CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5/LeibnizSeries.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/LeibnizSeries.dir
+  OBJECT_FILE_DIR = CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LeibnizSeries
+
+
+#############################################
+# Link the executable LeibnizSeries
+
+build LeibnizSeries: C_EXECUTABLE_LINKER__LeibnizSeries_Debug CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5/LeibnizSeries.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/LeibnizSeries.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LeibnizSeries
+  TARGET_PDB = LeibnizSeries.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -384,7 +508,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug
 
-build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2
+build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries
 
 # =============================================================================
 # Built-in targets

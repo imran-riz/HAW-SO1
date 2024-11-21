@@ -81,33 +81,42 @@ void binaryWeights2() {
     }
 }
 
+// Ex 25
+void bankAccount()
+{
+    const double RATE_PER_YEAR = 0.35;          // the % rate per year
+    const double INITIAL_BALANCE = 1000;
+    double current_balance = INITIAL_BALANCE;
+    int year = 0;
+
+    do {
+        current_balance = current_balance + (current_balance * RATE_PER_YEAR/100);
+        ++year;
+    } while (current_balance < 2 * INITIAL_BALANCE);
+
+    printf("\nGiven a rate of %.2f%% it will %d years for a balance of %.2f EUR to be doubled.", RATE_PER_YEAR, year, INITIAL_BALANCE);
+    printf("\nBalance now = %.2f EUR", current_balance);
+}
+
 // Ex 26.
-void leibnizSeries() {
+void leibnizSeries()
+{
 
 }
 
 // Ex 27.
-void mathSeries() {
-    double sum = 0.0, summand = 1, delta = 1.0e-10;
-    int summandCount = 0;
+void mathSeries()
+{
 
-    while (summand > delta) {
-        sum += summand;
-        summand = summand * 0.5;
-        summandCount += 1;
-    }
-
-    printf("Approximate sum: %.11f\n", sum);
-    printf("Summands added: %3d\n", summandCount);
-    printf("Stopped at: %.1e\n", delta);
 }
 
 // Ex 28.
-void bisectionMethod() {
+void bisectionMethod()
+{
 
 }
 
 
 int main(void) {
-    mathSeries();
+    bankAccount();
 }

@@ -8,5 +8,9 @@
 /Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec4.dir
 /Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug/CMakeFiles/LSL_Exam_Task.dir
 /Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug/CMakeFiles/Question_14_2.dir
+/Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug/CMakeFiles/Dice.dir
+/Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec6.dir
+/Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug/CMakeFiles/CleanInput.dir
+/Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug/CMakeFiles/LeibnizSeries.dir
 /Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/imran.rizwan/Documents/Uni/UniWorkC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

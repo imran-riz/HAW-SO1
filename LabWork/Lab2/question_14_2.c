@@ -14,7 +14,7 @@ int main(void)
     unsigned long long grainsOnField = 1;
     unsigned long long sumOfGrains = 1;
     double totalWeight = 0;
-    double p;
+    double p = 0;
 
     printf(" Field |  On Field            |  Sum \n");
     printf("-----------------------------------------------------------------\n");
