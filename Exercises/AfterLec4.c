@@ -110,13 +110,48 @@ void mathSeries()
 
 }
 
-// Ex 28.
+/* Ex 28.
+ *
+ * The function f(x) = x^2 - 2x - 1,
+ */
 void bisectionMethod()
 {
+    double xL = 0.0, xR = 4.0;
+    double fL, fR, xM, fM;
+    const double delta = 10e-6;
 
+    // the initial function values
+    fL = (xL * xL) - 2*xL - 1;
+    fR = (xR * xR) - 2*xR - 1;
+
+    printf("Zero-crossing for f(x) = x^2 - 2x - 1 by bisection method:\n");
+    printf("x0 in [%.9f , %.9f]\n", xL, xR);
+
+    while (xR - xL > delta)
+    {
+        xM = 0.5 * (xL + xR);
+        fM = (xM * xM) - 2*xM - 1;
+
+        if (xL * xM > 0)
+        {
+            xL = xM;
+            fL = fM;
+        }
+        else
+        {
+            xR = xM;
+            fR = fM;
+        }
+
+        printf("x0 in [%.9f , %.9f]\n", xL, xR);
+    }
+
+    printf("Stopped at interval size: %.9f\n", delta);
+    printf("Approximated x0         : %.9f\n", 0.5 * (xL + xR));
+    printf("Approximated f(x0)      : %.9f\n", 0.5 * (fL + fR));
 }
 
 
 int main(void) {
-    bankAccount();
+    bisectionMethod();
 }
