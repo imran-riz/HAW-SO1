@@ -1,7 +1,8 @@
 /**
  * Assignment 15.3 - Distances
  *
- *
+ * A program to find the local distance and global distance between 2 points given their
+ * geographical locations in (latitude, longitude)
  */
 #include <stdio.h>
 #include <math.h>

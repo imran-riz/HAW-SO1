@@ -14,13 +14,13 @@ int main(void)
 {
     // Test coordinates for Northern hemisphere
     printf("\nAre these locations in the Northern hemisphere?");
-    printf("\n\tNew York City, USA: Lat 40.714°, Lon -74.006°? \t%d", isNorthernHemisphere(40.714, -74.006));
-    printf("\n\tSydney, Australia: Lat -33.868°, Lon 151.209°? \t%d", isNorthernHemisphere(-33.8688, 151.2093));
+    printf("\n\tNew York City, USA: Lat 40.714°, Lon -74.006°? \t%s", isNorthernHemisphere(40.714, -74.006) == 1 ? "True": "False");
+    printf("\n\tSydney, Australia: Lat -33.868°, Lon 151.209°? \t%s", isNorthernHemisphere(-33.8688, 151.2093) == 1 ? "True": "False");
 
     // Test coordinates for Southern hemisphere
     printf("\n\nAre these locations in the Southern hemisphere?");
-    printf("\n\tNew York City, USA: Lat 40.714°, Lon -74.006°? \t%d", isSouthernHemisphere(40.714, -74.006));
-    printf("\n\tSydney, Australia: Lat -33.868°, Lon 151.209°? \t%d", isSouthernHemisphere(-33.8688, 151.2093));
+    printf("\n\tNew York City, USA: Lat 40.714°, Lon -74.006°? \t%s", isSouthernHemisphere(40.714, -74.006) == 1 ? "True": "False");
+    printf("\n\tSydney, Australia: Lat -33.868°, Lon 151.209°? \t%s", isSouthernHemisphere(-33.8688, 151.2093) == 1 ? "True": "False");
 
     return 0;
 }
