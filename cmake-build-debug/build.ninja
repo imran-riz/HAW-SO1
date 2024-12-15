@@ -567,6 +567,316 @@ build Distances: C_EXECUTABLE_LINKER__Distances_Debug CMakeFiles/Distances.dir/L
   TARGET_FILE = Distances
   TARGET_PDB = Distances.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1D_arrays
+
+
+#############################################
+# Order-only phony target for 1D_arrays
+
+build cmake_object_order_depends_target_1D_arrays: phony || .
+
+build CMakeFiles/1D_arrays.dir/Basics/1D_arrays.c.o: C_COMPILER__1D_arrays_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Basics/1D_arrays.c || cmake_object_order_depends_target_1D_arrays
+  DEP_FILE = CMakeFiles/1D_arrays.dir/Basics/1D_arrays.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1D_arrays.dir
+  OBJECT_FILE_DIR = CMakeFiles/1D_arrays.dir/Basics
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1D_arrays
+
+
+#############################################
+# Link the executable 1D_arrays
+
+build 1D_arrays: C_EXECUTABLE_LINKER__1D_arrays_Debug CMakeFiles/1D_arrays.dir/Basics/1D_arrays.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/1D_arrays.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1D_arrays
+  TARGET_PDB = 1D_arrays.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArrayDice
+
+
+#############################################
+# Order-only phony target for ArrayDice
+
+build cmake_object_order_depends_target_ArrayDice: phony || .
+
+build CMakeFiles/ArrayDice.dir/Exercises/Arrays/Dice.c.o: C_COMPILER__ArrayDice_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/Dice.c || cmake_object_order_depends_target_ArrayDice
+  DEP_FILE = CMakeFiles/ArrayDice.dir/Exercises/Arrays/Dice.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ArrayDice.dir
+  OBJECT_FILE_DIR = CMakeFiles/ArrayDice.dir/Exercises/Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArrayDice
+
+
+#############################################
+# Link the executable ArrayDice
+
+build ArrayDice: C_EXECUTABLE_LINKER__ArrayDice_Debug CMakeFiles/ArrayDice.dir/Exercises/Arrays/Dice.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/ArrayDice.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ArrayDice
+  TARGET_PDB = ArrayDice.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EqualArrays
+
+
+#############################################
+# Order-only phony target for EqualArrays
+
+build cmake_object_order_depends_target_EqualArrays: phony || .
+
+build CMakeFiles/EqualArrays.dir/Exercises/Arrays/EqualArrays.c.o: C_COMPILER__EqualArrays_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/EqualArrays.c || cmake_object_order_depends_target_EqualArrays
+  DEP_FILE = CMakeFiles/EqualArrays.dir/Exercises/Arrays/EqualArrays.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/EqualArrays.dir
+  OBJECT_FILE_DIR = CMakeFiles/EqualArrays.dir/Exercises/Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EqualArrays
+
+
+#############################################
+# Link the executable EqualArrays
+
+build EqualArrays: C_EXECUTABLE_LINKER__EqualArrays_Debug CMakeFiles/EqualArrays.dir/Exercises/Arrays/EqualArrays.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/EqualArrays.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = EqualArrays
+  TARGET_PDB = EqualArrays.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MedianFilter
+
+
+#############################################
+# Order-only phony target for MedianFilter
+
+build cmake_object_order_depends_target_MedianFilter: phony || .
+
+build CMakeFiles/MedianFilter.dir/Exercises/Arrays/MedianFilter.c.o: C_COMPILER__MedianFilter_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/MedianFilter.c || cmake_object_order_depends_target_MedianFilter
+  DEP_FILE = CMakeFiles/MedianFilter.dir/Exercises/Arrays/MedianFilter.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/MedianFilter.dir
+  OBJECT_FILE_DIR = CMakeFiles/MedianFilter.dir/Exercises/Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MedianFilter
+
+
+#############################################
+# Link the executable MedianFilter
+
+build MedianFilter: C_EXECUTABLE_LINKER__MedianFilter_Debug CMakeFiles/MedianFilter.dir/Exercises/Arrays/MedianFilter.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/MedianFilter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MedianFilter
+  TARGET_PDB = MedianFilter.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Strings
+
+
+#############################################
+# Order-only phony target for Strings
+
+build cmake_object_order_depends_target_Strings: phony || .
+
+build CMakeFiles/Strings.dir/Exercises/Arrays/Strings.c.o: C_COMPILER__Strings_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/Strings.c || cmake_object_order_depends_target_Strings
+  DEP_FILE = CMakeFiles/Strings.dir/Exercises/Arrays/Strings.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Strings.dir
+  OBJECT_FILE_DIR = CMakeFiles/Strings.dir/Exercises/Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Strings
+
+
+#############################################
+# Link the executable Strings
+
+build Strings: C_EXECUTABLE_LINKER__Strings_Debug CMakeFiles/Strings.dir/Exercises/Arrays/Strings.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/Strings.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Strings
+  TARGET_PDB = Strings.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MemoryAllocation
+
+
+#############################################
+# Order-only phony target for MemoryAllocation
+
+build cmake_object_order_depends_target_MemoryAllocation: phony || .
+
+build CMakeFiles/MemoryAllocation.dir/Exercises/Arrays/MemoryAllocation.c.o: C_COMPILER__MemoryAllocation_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/MemoryAllocation.c || cmake_object_order_depends_target_MemoryAllocation
+  DEP_FILE = CMakeFiles/MemoryAllocation.dir/Exercises/Arrays/MemoryAllocation.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/MemoryAllocation.dir
+  OBJECT_FILE_DIR = CMakeFiles/MemoryAllocation.dir/Exercises/Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MemoryAllocation
+
+
+#############################################
+# Link the executable MemoryAllocation
+
+build MemoryAllocation: C_EXECUTABLE_LINKER__MemoryAllocation_Debug CMakeFiles/MemoryAllocation.dir/Exercises/Arrays/MemoryAllocation.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/MemoryAllocation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MemoryAllocation
+  TARGET_PDB = MemoryAllocation.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FindSubstring
+
+
+#############################################
+# Order-only phony target for FindSubstring
+
+build cmake_object_order_depends_target_FindSubstring: phony || .
+
+build CMakeFiles/FindSubstring.dir/Exercises/Arrays/FindSubstring.c.o: C_COMPILER__FindSubstring_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/FindSubstring.c || cmake_object_order_depends_target_FindSubstring
+  DEP_FILE = CMakeFiles/FindSubstring.dir/Exercises/Arrays/FindSubstring.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/FindSubstring.dir
+  OBJECT_FILE_DIR = CMakeFiles/FindSubstring.dir/Exercises/Arrays
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FindSubstring
+
+
+#############################################
+# Link the executable FindSubstring
+
+build FindSubstring: C_EXECUTABLE_LINKER__FindSubstring_Debug CMakeFiles/FindSubstring.dir/Exercises/Arrays/FindSubstring.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/FindSubstring.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = FindSubstring
+  TARGET_PDB = FindSubstring.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pointers
+
+
+#############################################
+# Order-only phony target for Pointers
+
+build cmake_object_order_depends_target_Pointers: phony || .
+
+build CMakeFiles/Pointers.dir/Basics/Pointers.c.o: C_COMPILER__Pointers_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Basics/Pointers.c || cmake_object_order_depends_target_Pointers
+  DEP_FILE = CMakeFiles/Pointers.dir/Basics/Pointers.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles/Pointers.dir/Basics
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pointers
+
+
+#############################################
+# Link the executable Pointers
+
+build Pointers: C_EXECUTABLE_LINKER__Pointers_Debug CMakeFiles/Pointers.dir/Basics/Pointers.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/Pointers.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Pointers
+  TARGET_PDB = Pointers.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RouteLength
+
+
+#############################################
+# Order-only phony target for RouteLength
+
+build cmake_object_order_depends_target_RouteLength: phony || .
+
+build CMakeFiles/RouteLength.dir/LabWork/Lab4/RouteLength.c.o: C_COMPILER__RouteLength_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LabWork/Lab4/RouteLength.c || cmake_object_order_depends_target_RouteLength
+  DEP_FILE = CMakeFiles/RouteLength.dir/LabWork/Lab4/RouteLength.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RouteLength.dir
+  OBJECT_FILE_DIR = CMakeFiles/RouteLength.dir/LabWork/Lab4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RouteLength
+
+
+#############################################
+# Link the executable RouteLength
+
+build RouteLength: C_EXECUTABLE_LINKER__RouteLength_Debug CMakeFiles/RouteLength.dir/LabWork/Lab4/RouteLength.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/RouteLength.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = RouteLength
+  TARGET_PDB = RouteLength.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MaximumDistance
+
+
+#############################################
+# Order-only phony target for MaximumDistance
+
+build cmake_object_order_depends_target_MaximumDistance: phony || .
+
+build CMakeFiles/MaximumDistance.dir/LabWork/Lab4/MaximumDistance.c.o: C_COMPILER__MaximumDistance_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LabWork/Lab4/MaximumDistance.c || cmake_object_order_depends_target_MaximumDistance
+  DEP_FILE = CMakeFiles/MaximumDistance.dir/LabWork/Lab4/MaximumDistance.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/MaximumDistance.dir
+  OBJECT_FILE_DIR = CMakeFiles/MaximumDistance.dir/LabWork/Lab4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MaximumDistance
+
+
+#############################################
+# Link the executable MaximumDistance
+
+build MaximumDistance: C_EXECUTABLE_LINKER__MaximumDistance_Debug CMakeFiles/MaximumDistance.dir/LabWork/Lab4/MaximumDistance.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/MaximumDistance.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MaximumDistance
+  TARGET_PDB = MaximumDistance.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -601,7 +911,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug
 
-build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances
+build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance
 
 # =============================================================================
 # Built-in targets

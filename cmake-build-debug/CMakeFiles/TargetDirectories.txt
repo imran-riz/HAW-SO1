@@ -15,5 +15,15 @@
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Bisection.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Hemispheres.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Distances.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/1D_arrays.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/ArrayDice.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/EqualArrays.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MedianFilter.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Strings.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MemoryAllocation.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/FindSubstring.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Pointers.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/RouteLength.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MaximumDistance.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
