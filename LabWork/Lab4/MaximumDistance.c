@@ -1,3 +1,14 @@
+/**
+ *  IE SO 1 Lab 4 - Arrays and Pointers
+ *
+ *  A program that finds the maximum distance in Km between 2 locations using their coordinates,
+ *  given as (latitude, longitude).
+ *
+ *  A 1D array stores the names of the locations and a 2D array stores their coordinates respectively.
+ *  The coordinates array is passed to a function that performs the search. The function returns the max distance
+ *  and the indices of the 2 locations given 2 pointers.
+ */
+
 #include <stdio.h>
 #include <math.h>
 
@@ -6,8 +17,17 @@ double getRouteLengthKm(double lat1, double lon1, double lat2, double lon2);
 
 int main(void)
 {
-    char *names[] = {"HAW Hamburg", "Eiffel Tower", "Palma de Mallorca", "Las Vegas", "Copacabana", "Waikiki Beach", "Surfer's Paradise"};
-    double coordinates[7][2] =
+    char *names[] =
+    {
+        "HAW Hamburg",
+        "Eiffel Tower",
+        "Palma de Mallorca",
+        "Las Vegas",
+        "Copacabana",
+        "Waikiki Beach",
+        "Surfer's Paradise"
+    };
+    double coordinates[][2] =
     {
         {53.557078, 10.023109},
         {48.858363, 2.294481},
@@ -18,8 +38,8 @@ int main(void)
         {-28.002695, 153.431781},
     };
     int numOfElements = sizeof coordinates / sizeof coordinates[0];
-    int rowA = 0;
-    int rowB = 0;
+    int rowA = 0;           // row index of first location
+    int rowB = 0;           // row index of second location
     double maxDistance = getMaximumDistance(coordinates, numOfElements, &rowA, &rowB, names);
 
     printf("\n\n%s and %s have the largest distance (%.2f km). \nYou'd better not walk. Take a flight instead.", names[rowA], names[rowB], maxDistance);
@@ -27,6 +47,17 @@ int main(void)
     return 0;
 }
 
+/**
+ * Searches for the 2 locations (A and B) in an array of coordinates
+ * that have the maximum distance between them.
+ *
+ * @param coords nx2 array containing the latitudes and longitudes of locations
+ * @param n the number of locations (elements) in the coords array
+ * @param indexA address of the variable that stores the row index of location A
+ * @param indexB address of the variable that stores the row index of location B
+ * @param names address of the names array of the n locations (used for testing)
+ * @return the max distance between 2 locations
+ */
 double getMaximumDistance(const double coords[][2], const int n, int *indexA, int *indexB, char *names[])
 {
     double maxDistance = 0.0;
@@ -38,9 +69,12 @@ double getMaximumDistance(const double coords[][2], const int n, int *indexA, in
         {
             tempDistance = getRouteLengthKm(coords[i][0], coords[i][1], coords[j][0], coords[j][1]);
 
+            // testing
             // printf("\nChecking from %s to %s", names[i], names[j]);
             // printf("\nDistance = %.2f", tempDistance);
 
+            // if the distance of the current 2 points are larger,
+            // update the max distance and store the indices of the new locations
             if (tempDistance > maxDistance)
             {
                 maxDistance = tempDistance;

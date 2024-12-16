@@ -1,3 +1,9 @@
+/**
+ *  IE SO 1 Lab 4 - Arrays and Pointers
+ *
+ *
+ */
+
 #include <math.h>
 #include <stdio.h>
 
@@ -38,6 +44,8 @@ int main(void)
         overallDistance += getRouteLengthKm(latitudes[i], longitudes[i], latitudes[i+1], longitudes[i+1]);
 
     printf("The overall distance is %.2fkm", overallDistance);
+
+    // printf("\n\nTest 0 km route: %f", getRouteLengthKm(0.0,0,0.0,0.0));
 
     return 0;
 }
