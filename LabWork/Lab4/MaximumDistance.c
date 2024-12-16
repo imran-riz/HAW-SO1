@@ -1,7 +1,8 @@
 /**
  *  IE SO 1 Lab 4 - Arrays and Pointers
+ *  Dec 16, 2024
  *
- *  A program that finds the maximum distance in Km between 2 locations using their coordinates,
+ *  Task 2 - A program that finds the maximum distance in Km between 2 locations using their coordinates,
  *  given as (latitude, longitude).
  *
  *  A 1D array stores the names of the locations and a 2D array stores their coordinates respectively.
@@ -9,15 +10,16 @@
  *  and the indices of the 2 locations given 2 pointers.
  */
 
+// #define _USE_MATH_DEFINES           // needed for windows
 #include <stdio.h>
 #include <math.h>
 
-double getMaximumDistance(const double coords[][2], int n, int *indexA, int *indexB, char *names[]);
-double getRouteLengthKm(double lat1, double lon1, double lat2, double lon2);
+double getMaximumDistance(const double coords[][2], int n, int* indexA, int* indexB, char* names[]);
+double distanceKm(double lat1, double lon1, double lat2, double lon2);
 
 int main(void)
 {
-    char *names[] =
+    char* names[] =
     {
         "HAW Hamburg",
         "Eiffel Tower",
@@ -42,7 +44,7 @@ int main(void)
     int rowB = 0;           // row index of second location
     double maxDistance = getMaximumDistance(coordinates, numOfElements, &rowA, &rowB, names);
 
-    printf("\n\n%s and %s have the largest distance (%.2f km). \nYou'd better not walk. Take a flight instead.", names[rowA], names[rowB], maxDistance);
+    printf("\n\n%s and %s have the largest distance (%.2f km). \nYou'd better not walk. Take a flight instead.\n\n", names[rowA], names[rowB], maxDistance);
 
     return 0;
 }
@@ -58,16 +60,16 @@ int main(void)
  * @param names address of the names array of the n locations (used for testing)
  * @return the max distance between 2 locations
  */
-double getMaximumDistance(const double coords[][2], const int n, int *indexA, int *indexB, char *names[])
+double getMaximumDistance(const double coords[][2], const int n, int* indexA, int* indexB, char* names[])
 {
     double maxDistance = 0.0;
     double tempDistance = 0.0;
 
     for (int i = 0; i < n - 1; ++i)
     {
-        for (int j = i + 1; j < n ; ++j)
+        for (int j = i + 1; j < n; ++j)
         {
-            tempDistance = getRouteLengthKm(coords[i][0], coords[i][1], coords[j][0], coords[j][1]);
+            tempDistance = distanceKm(coords[i][0], coords[i][1], coords[j][0], coords[j][1]);
 
             // testing
             // printf("\nChecking from %s to %s", names[i], names[j]);
@@ -97,9 +99,9 @@ double getMaximumDistance(const double coords[][2], const int n, int *indexA, in
  * @param lon2 point 2's longitude in degrees
  * @return the global distance
  */
-double getRouteLengthKm(double lat1, double lon1, double lat2, double lon2)
+double distanceKm(double lat1, double lon1, double lat2, double lon2)
 {
-    double lat1InRad, lon1InRad, lat2InRad, lon2InRad, distance;
+    double lat1InRad, lon1InRad, lat2InRad, lon2InRad;
 
     // if the points overlap, return 0
     if (lat1 == lat2 && lon1 == lon2) return 0.0;
@@ -112,8 +114,6 @@ double getRouteLengthKm(double lat1, double lon1, double lat2, double lon2)
     lat2InRad = lat2 * (M_PI / 180.0);
     lon2InRad = lon2 * (M_PI / 180.0);
 
-    // calculate the global distance
-    distance = 6378.388 * acos(sin(lat1InRad) * sin(lat2InRad) + cos(lat1InRad) * cos(lat2InRad) * cos(fabs(lon2InRad - lon1InRad)));
-
-    return distance;
+    // calculate and return the global distance
+    return 6378.388 * acos(sin(lat1InRad) * sin(lat2InRad) + cos(lat1InRad) * cos(lat2InRad) * cos(fabs(lon2InRad - lon1InRad)));
 }
