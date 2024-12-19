@@ -877,6 +877,37 @@ build MaximumDistance: C_EXECUTABLE_LINKER__MaximumDistance_Debug CMakeFiles/Max
   TARGET_FILE = MaximumDistance
   TARGET_PDB = MaximumDistance.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target W2022-23
+
+
+#############################################
+# Order-only phony target for W2022-23
+
+build cmake_object_order_depends_target_W2022-23: phony || .
+
+build CMakeFiles/W2022-23.dir/ExamTasks/W2022-23.c.o: C_COMPILER__W2022-23_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/ExamTasks/W2022-23.c || cmake_object_order_depends_target_W2022-23
+  DEP_FILE = CMakeFiles/W2022-23.dir/ExamTasks/W2022-23.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/W2022-23.dir
+  OBJECT_FILE_DIR = CMakeFiles/W2022-23.dir/ExamTasks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target W2022-23
+
+
+#############################################
+# Link the executable W2022-23
+
+build W2022-23: C_EXECUTABLE_LINKER__W2022-23_Debug CMakeFiles/W2022-23.dir/ExamTasks/W2022-23.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/W2022-23.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = W2022-23
+  TARGET_PDB = W2022-23.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -911,7 +942,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug
 
-build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance
+build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23
 
 # =============================================================================
 # Built-in targets

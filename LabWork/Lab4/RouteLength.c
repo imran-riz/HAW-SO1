@@ -4,8 +4,8 @@
  *
  *  Task 1 - A program to find the overall distance of a route represented by a collection of locations.
  *
- *  The coordinates of each location is stored in 2 arrays for their latitudes and longitudes respectively. Iteratively, we calculate the distance
- *  between 2 locations and add it to a total.
+ *  The coordinates of each location is stored in 2 arrays for their latitudes and longitudes respectively.
+ *  Iteratively, we calculate the distance between 2 locations and add it to a total.
  */
 // #define _USE_MATH_DEFINES           // needed for windows
 #include <math.h>
@@ -85,7 +85,6 @@ double distanceKm(double lat1, double lon1, double lat2, double lon2)
     if (lat1 == lat2 && lon1 == lon2) return 0.0;
 
     // convert the coordinates of point 1 to radians
-
     lat1InRad = lat1 * (M_PI / 180.0);
     lon1InRad = lon1 * (M_PI / 180.0);
 
