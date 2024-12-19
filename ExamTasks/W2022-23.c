@@ -6,41 +6,39 @@ float principalValue(float alpha);
 
 int main(void)
 {
-    int kMax;
-    float x;
+    int count, maxK;
+    float x, alpha;
     char ltr;
 
     do
     {
         printf("\nSeries expansion for sin(x * PI) with k > 0 terms.");
         printf("\nPlease enter <x>,<k>: ");
-        scanf("%f,%d", &x, &kMax);
+        count = scanf("%f,%d", &x, &maxK);
         getchar();
 
-        if (kMax < 0)
+        // iteratively validate the inputs and allow the user input again
+        while (count != 2 || maxK < 0)
         {
             printf("Invalid input. Retry: ");
-            scanf("%f,%d", &x, &kMax);
+            count = scanf("%f,%d", &x, &maxK);
             getchar();
         }
-        else
-        {
-            printf("Approximations of sin(%.2f * pi):", x);
-            for (int k = 1; k <= kMax; ++k)
-            {
-                printf("\n\tk = %2d: sin(x * PI) = %.6f", k, sine(x * M_PI, k));
-            }
 
-            printf("\nPrincipal value: %.2f * pi", principalValue(x * M_PI) / M_PI);
+        alpha = x * M_PI;
 
-            printf("\nEnter <q> to quit, any other key to continue. ");
-            scanf("%c", &ltr);
-            getchar();
+        printf("Approximations of sin(%.2f * pi):", x);
+        for (int k = 1; k <= maxK; ++k)
+            printf("\n\tk = %2d: sin(x * PI) = %.6f", k, sine(alpha, k));
 
-            if (ltr == 'q' || ltr == 'Q') break;
-        }
+
+        printf("\nPrincipal value: %.2f * pi", principalValue(alpha) / M_PI);
+
+        printf("\nEnter <q> to quit, any other key to continue. ");
+        scanf("%c", &ltr);
+        getchar();
     }
-    while (1);
+    while (ltr != 'q' && ltr != 'Q');
 
     return 0;
 }
