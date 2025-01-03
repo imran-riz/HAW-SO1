@@ -26,5 +26,7 @@
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/RouteLength.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MaximumDistance.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/W2022-23.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/ArraysPointers.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MultidimensionalArrays.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

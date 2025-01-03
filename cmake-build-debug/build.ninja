@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_Main: phony || .
 
 build CMakeFiles/Main.dir/main.c.o: C_COMPILER__Main_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/main.c || cmake_object_order_depends_target_Main
   DEP_FILE = CMakeFiles/Main.dir/main.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Main.dir
   OBJECT_FILE_DIR = CMakeFiles/Main.dir
 
@@ -64,7 +64,7 @@ build CMakeFiles/Main.dir/main.c.o: C_COMPILER__Main_unscanned_Debug /Users/imra
 # Link the executable Main
 
 build Main: C_EXECUTABLE_LINKER__Main_Debug CMakeFiles/Main.dir/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Main.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -82,7 +82,7 @@ build cmake_object_order_depends_target_Calculator: phony || .
 
 build CMakeFiles/Calculator.dir/Basics/Calculator.c.o: C_COMPILER__Calculator_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Basics/Calculator.c || cmake_object_order_depends_target_Calculator
   DEP_FILE = CMakeFiles/Calculator.dir/Basics/Calculator.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Calculator.dir
   OBJECT_FILE_DIR = CMakeFiles/Calculator.dir/Basics
 
@@ -95,7 +95,7 @@ build CMakeFiles/Calculator.dir/Basics/Calculator.c.o: C_COMPILER__Calculator_un
 # Link the executable Calculator
 
 build Calculator: C_EXECUTABLE_LINKER__Calculator_Debug CMakeFiles/Calculator.dir/Basics/Calculator.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Calculator.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -113,7 +113,7 @@ build cmake_object_order_depends_target_Lec2: phony || .
 
 build CMakeFiles/Lec2.dir/LectureStuff/Lec2.c.o: C_COMPILER__Lec2_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LectureStuff/Lec2.c || cmake_object_order_depends_target_Lec2
   DEP_FILE = CMakeFiles/Lec2.dir/LectureStuff/Lec2.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Lec2.dir
   OBJECT_FILE_DIR = CMakeFiles/Lec2.dir/LectureStuff
 
@@ -126,7 +126,7 @@ build CMakeFiles/Lec2.dir/LectureStuff/Lec2.c.o: C_COMPILER__Lec2_unscanned_Debu
 # Link the executable Lec2
 
 build Lec2: C_EXECUTABLE_LINKER__Lec2_Debug CMakeFiles/Lec2.dir/LectureStuff/Lec2.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Lec2.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -144,7 +144,7 @@ build cmake_object_order_depends_target_AfterLec2: phony || .
 
 build CMakeFiles/AfterLec2.dir/Exercises/AfterLec2.c.o: C_COMPILER__AfterLec2_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/AfterLec2.c || cmake_object_order_depends_target_AfterLec2
   DEP_FILE = CMakeFiles/AfterLec2.dir/Exercises/AfterLec2.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/AfterLec2.dir
   OBJECT_FILE_DIR = CMakeFiles/AfterLec2.dir/Exercises
 
@@ -157,7 +157,7 @@ build CMakeFiles/AfterLec2.dir/Exercises/AfterLec2.c.o: C_COMPILER__AfterLec2_un
 # Link the executable AfterLec2
 
 build AfterLec2: C_EXECUTABLE_LINKER__AfterLec2_Debug CMakeFiles/AfterLec2.dir/Exercises/AfterLec2.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/AfterLec2.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -175,7 +175,7 @@ build cmake_object_order_depends_target_AfterLec3: phony || .
 
 build CMakeFiles/AfterLec3.dir/Exercises/AfterLec3.c.o: C_COMPILER__AfterLec3_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/AfterLec3.c || cmake_object_order_depends_target_AfterLec3
   DEP_FILE = CMakeFiles/AfterLec3.dir/Exercises/AfterLec3.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/AfterLec3.dir
   OBJECT_FILE_DIR = CMakeFiles/AfterLec3.dir/Exercises
 
@@ -188,7 +188,7 @@ build CMakeFiles/AfterLec3.dir/Exercises/AfterLec3.c.o: C_COMPILER__AfterLec3_un
 # Link the executable AfterLec3
 
 build AfterLec3: C_EXECUTABLE_LINKER__AfterLec3_Debug CMakeFiles/AfterLec3.dir/Exercises/AfterLec3.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/AfterLec3.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -206,7 +206,7 @@ build cmake_object_order_depends_target_Lec3: phony || .
 
 build CMakeFiles/Lec3.dir/LectureStuff/Lec3.c.o: C_COMPILER__Lec3_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LectureStuff/Lec3.c || cmake_object_order_depends_target_Lec3
   DEP_FILE = CMakeFiles/Lec3.dir/LectureStuff/Lec3.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Lec3.dir
   OBJECT_FILE_DIR = CMakeFiles/Lec3.dir/LectureStuff
 
@@ -219,7 +219,7 @@ build CMakeFiles/Lec3.dir/LectureStuff/Lec3.c.o: C_COMPILER__Lec3_unscanned_Debu
 # Link the executable Lec3
 
 build Lec3: C_EXECUTABLE_LINKER__Lec3_Debug CMakeFiles/Lec3.dir/LectureStuff/Lec3.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Lec3.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -237,7 +237,7 @@ build cmake_object_order_depends_target_Lec4: phony || .
 
 build CMakeFiles/Lec4.dir/LectureStuff/Lec4.c.o: C_COMPILER__Lec4_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LectureStuff/Lec4.c || cmake_object_order_depends_target_Lec4
   DEP_FILE = CMakeFiles/Lec4.dir/LectureStuff/Lec4.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Lec4.dir
   OBJECT_FILE_DIR = CMakeFiles/Lec4.dir/LectureStuff
 
@@ -250,7 +250,7 @@ build CMakeFiles/Lec4.dir/LectureStuff/Lec4.c.o: C_COMPILER__Lec4_unscanned_Debu
 # Link the executable Lec4
 
 build Lec4: C_EXECUTABLE_LINKER__Lec4_Debug CMakeFiles/Lec4.dir/LectureStuff/Lec4.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Lec4.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -268,7 +268,7 @@ build cmake_object_order_depends_target_AfterLec4: phony || .
 
 build CMakeFiles/AfterLec4.dir/Exercises/AfterLec4.c.o: C_COMPILER__AfterLec4_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/AfterLec4.c || cmake_object_order_depends_target_AfterLec4
   DEP_FILE = CMakeFiles/AfterLec4.dir/Exercises/AfterLec4.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/AfterLec4.dir
   OBJECT_FILE_DIR = CMakeFiles/AfterLec4.dir/Exercises
 
@@ -281,7 +281,7 @@ build CMakeFiles/AfterLec4.dir/Exercises/AfterLec4.c.o: C_COMPILER__AfterLec4_un
 # Link the executable AfterLec4
 
 build AfterLec4: C_EXECUTABLE_LINKER__AfterLec4_Debug CMakeFiles/AfterLec4.dir/Exercises/AfterLec4.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/AfterLec4.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -299,7 +299,7 @@ build cmake_object_order_depends_target_LSL_Exam_Task: phony || .
 
 build CMakeFiles/LSL_Exam_Task.dir/ExamTasks/LSL_Exam_Task.c.o: C_COMPILER__LSL_Exam_Task_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/ExamTasks/LSL_Exam_Task.c || cmake_object_order_depends_target_LSL_Exam_Task
   DEP_FILE = CMakeFiles/LSL_Exam_Task.dir/ExamTasks/LSL_Exam_Task.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LSL_Exam_Task.dir
   OBJECT_FILE_DIR = CMakeFiles/LSL_Exam_Task.dir/ExamTasks
 
@@ -312,7 +312,7 @@ build CMakeFiles/LSL_Exam_Task.dir/ExamTasks/LSL_Exam_Task.c.o: C_COMPILER__LSL_
 # Link the executable LSL_Exam_Task
 
 build LSL_Exam_Task: C_EXECUTABLE_LINKER__LSL_Exam_Task_Debug CMakeFiles/LSL_Exam_Task.dir/ExamTasks/LSL_Exam_Task.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/LSL_Exam_Task.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -330,7 +330,7 @@ build cmake_object_order_depends_target_Question_14_2: phony || .
 
 build CMakeFiles/Question_14_2.dir/LabWork/Lab2/question_14_2.c.o: C_COMPILER__Question_14_2_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LabWork/Lab2/question_14_2.c || cmake_object_order_depends_target_Question_14_2
   DEP_FILE = CMakeFiles/Question_14_2.dir/LabWork/Lab2/question_14_2.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Question_14_2.dir
   OBJECT_FILE_DIR = CMakeFiles/Question_14_2.dir/LabWork/Lab2
 
@@ -343,7 +343,7 @@ build CMakeFiles/Question_14_2.dir/LabWork/Lab2/question_14_2.c.o: C_COMPILER__Q
 # Link the executable Question_14_2
 
 build Question_14_2: C_EXECUTABLE_LINKER__Question_14_2_Debug CMakeFiles/Question_14_2.dir/LabWork/Lab2/question_14_2.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Question_14_2.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -361,7 +361,7 @@ build cmake_object_order_depends_target_Dice: phony || .
 
 build CMakeFiles/Dice.dir/Exercises/AfterLec5/Dice.c.o: C_COMPILER__Dice_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/AfterLec5/Dice.c || cmake_object_order_depends_target_Dice
   DEP_FILE = CMakeFiles/Dice.dir/Exercises/AfterLec5/Dice.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Dice.dir
   OBJECT_FILE_DIR = CMakeFiles/Dice.dir/Exercises/AfterLec5
 
@@ -374,7 +374,7 @@ build CMakeFiles/Dice.dir/Exercises/AfterLec5/Dice.c.o: C_COMPILER__Dice_unscann
 # Link the executable Dice
 
 build Dice: C_EXECUTABLE_LINKER__Dice_Debug CMakeFiles/Dice.dir/Exercises/AfterLec5/Dice.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Dice.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -392,7 +392,7 @@ build cmake_object_order_depends_target_AfterLec6: phony || .
 
 build CMakeFiles/AfterLec6.dir/Exercises/AfterLec6.c.o: C_COMPILER__AfterLec6_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/AfterLec6.c || cmake_object_order_depends_target_AfterLec6
   DEP_FILE = CMakeFiles/AfterLec6.dir/Exercises/AfterLec6.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/AfterLec6.dir
   OBJECT_FILE_DIR = CMakeFiles/AfterLec6.dir/Exercises
 
@@ -405,7 +405,7 @@ build CMakeFiles/AfterLec6.dir/Exercises/AfterLec6.c.o: C_COMPILER__AfterLec6_un
 # Link the executable AfterLec6
 
 build AfterLec6: C_EXECUTABLE_LINKER__AfterLec6_Debug CMakeFiles/AfterLec6.dir/Exercises/AfterLec6.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/AfterLec6.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -423,7 +423,7 @@ build cmake_object_order_depends_target_CleanInput: phony || .
 
 build CMakeFiles/CleanInput.dir/LectureStuff/Lec5/CleanInput.c.o: C_COMPILER__CleanInput_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LectureStuff/Lec5/CleanInput.c || cmake_object_order_depends_target_CleanInput
   DEP_FILE = CMakeFiles/CleanInput.dir/LectureStuff/Lec5/CleanInput.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CleanInput.dir
   OBJECT_FILE_DIR = CMakeFiles/CleanInput.dir/LectureStuff/Lec5
 
@@ -436,7 +436,7 @@ build CMakeFiles/CleanInput.dir/LectureStuff/Lec5/CleanInput.c.o: C_COMPILER__Cl
 # Link the executable CleanInput
 
 build CleanInput: C_EXECUTABLE_LINKER__CleanInput_Debug CMakeFiles/CleanInput.dir/LectureStuff/Lec5/CleanInput.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/CleanInput.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -454,7 +454,7 @@ build cmake_object_order_depends_target_LeibnizSeries: phony || .
 
 build CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5/LeibnizSeries.c.o: C_COMPILER__LeibnizSeries_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/AfterLec5/LeibnizSeries.c || cmake_object_order_depends_target_LeibnizSeries
   DEP_FILE = CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5/LeibnizSeries.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LeibnizSeries.dir
   OBJECT_FILE_DIR = CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5
 
@@ -467,7 +467,7 @@ build CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5/LeibnizSeries.c.o: C_COMP
 # Link the executable LeibnizSeries
 
 build LeibnizSeries: C_EXECUTABLE_LINKER__LeibnizSeries_Debug CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5/LeibnizSeries.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/LeibnizSeries.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -485,7 +485,7 @@ build cmake_object_order_depends_target_Bisection: phony || .
 
 build CMakeFiles/Bisection.dir/Exercises/AfterLec5/Bisection.c.o: C_COMPILER__Bisection_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/AfterLec5/Bisection.c || cmake_object_order_depends_target_Bisection
   DEP_FILE = CMakeFiles/Bisection.dir/Exercises/AfterLec5/Bisection.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Bisection.dir
   OBJECT_FILE_DIR = CMakeFiles/Bisection.dir/Exercises/AfterLec5
 
@@ -498,7 +498,7 @@ build CMakeFiles/Bisection.dir/Exercises/AfterLec5/Bisection.c.o: C_COMPILER__Bi
 # Link the executable Bisection
 
 build Bisection: C_EXECUTABLE_LINKER__Bisection_Debug CMakeFiles/Bisection.dir/Exercises/AfterLec5/Bisection.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Bisection.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -516,7 +516,7 @@ build cmake_object_order_depends_target_Hemispheres: phony || .
 
 build CMakeFiles/Hemispheres.dir/LabWork/Lab3/Hemispheres.c.o: C_COMPILER__Hemispheres_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LabWork/Lab3/Hemispheres.c || cmake_object_order_depends_target_Hemispheres
   DEP_FILE = CMakeFiles/Hemispheres.dir/LabWork/Lab3/Hemispheres.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Hemispheres.dir
   OBJECT_FILE_DIR = CMakeFiles/Hemispheres.dir/LabWork/Lab3
 
@@ -529,7 +529,7 @@ build CMakeFiles/Hemispheres.dir/LabWork/Lab3/Hemispheres.c.o: C_COMPILER__Hemis
 # Link the executable Hemispheres
 
 build Hemispheres: C_EXECUTABLE_LINKER__Hemispheres_Debug CMakeFiles/Hemispheres.dir/LabWork/Lab3/Hemispheres.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Hemispheres.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -547,7 +547,7 @@ build cmake_object_order_depends_target_Distances: phony || .
 
 build CMakeFiles/Distances.dir/LabWork/Lab3/Distances.c.o: C_COMPILER__Distances_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LabWork/Lab3/Distances.c || cmake_object_order_depends_target_Distances
   DEP_FILE = CMakeFiles/Distances.dir/LabWork/Lab3/Distances.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Distances.dir
   OBJECT_FILE_DIR = CMakeFiles/Distances.dir/LabWork/Lab3
 
@@ -560,7 +560,7 @@ build CMakeFiles/Distances.dir/LabWork/Lab3/Distances.c.o: C_COMPILER__Distances
 # Link the executable Distances
 
 build Distances: C_EXECUTABLE_LINKER__Distances_Debug CMakeFiles/Distances.dir/LabWork/Lab3/Distances.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Distances.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -578,7 +578,7 @@ build cmake_object_order_depends_target_1D_arrays: phony || .
 
 build CMakeFiles/1D_arrays.dir/Basics/1D_arrays.c.o: C_COMPILER__1D_arrays_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Basics/1D_arrays.c || cmake_object_order_depends_target_1D_arrays
   DEP_FILE = CMakeFiles/1D_arrays.dir/Basics/1D_arrays.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/1D_arrays.dir
   OBJECT_FILE_DIR = CMakeFiles/1D_arrays.dir/Basics
 
@@ -591,7 +591,7 @@ build CMakeFiles/1D_arrays.dir/Basics/1D_arrays.c.o: C_COMPILER__1D_arrays_unsca
 # Link the executable 1D_arrays
 
 build 1D_arrays: C_EXECUTABLE_LINKER__1D_arrays_Debug CMakeFiles/1D_arrays.dir/Basics/1D_arrays.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/1D_arrays.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -609,7 +609,7 @@ build cmake_object_order_depends_target_ArrayDice: phony || .
 
 build CMakeFiles/ArrayDice.dir/Exercises/Arrays/Dice.c.o: C_COMPILER__ArrayDice_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/Dice.c || cmake_object_order_depends_target_ArrayDice
   DEP_FILE = CMakeFiles/ArrayDice.dir/Exercises/Arrays/Dice.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ArrayDice.dir
   OBJECT_FILE_DIR = CMakeFiles/ArrayDice.dir/Exercises/Arrays
 
@@ -622,7 +622,7 @@ build CMakeFiles/ArrayDice.dir/Exercises/Arrays/Dice.c.o: C_COMPILER__ArrayDice_
 # Link the executable ArrayDice
 
 build ArrayDice: C_EXECUTABLE_LINKER__ArrayDice_Debug CMakeFiles/ArrayDice.dir/Exercises/Arrays/Dice.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/ArrayDice.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -640,7 +640,7 @@ build cmake_object_order_depends_target_EqualArrays: phony || .
 
 build CMakeFiles/EqualArrays.dir/Exercises/Arrays/EqualArrays.c.o: C_COMPILER__EqualArrays_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/EqualArrays.c || cmake_object_order_depends_target_EqualArrays
   DEP_FILE = CMakeFiles/EqualArrays.dir/Exercises/Arrays/EqualArrays.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/EqualArrays.dir
   OBJECT_FILE_DIR = CMakeFiles/EqualArrays.dir/Exercises/Arrays
 
@@ -653,7 +653,7 @@ build CMakeFiles/EqualArrays.dir/Exercises/Arrays/EqualArrays.c.o: C_COMPILER__E
 # Link the executable EqualArrays
 
 build EqualArrays: C_EXECUTABLE_LINKER__EqualArrays_Debug CMakeFiles/EqualArrays.dir/Exercises/Arrays/EqualArrays.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/EqualArrays.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -671,7 +671,7 @@ build cmake_object_order_depends_target_MedianFilter: phony || .
 
 build CMakeFiles/MedianFilter.dir/Exercises/Arrays/MedianFilter.c.o: C_COMPILER__MedianFilter_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/MedianFilter.c || cmake_object_order_depends_target_MedianFilter
   DEP_FILE = CMakeFiles/MedianFilter.dir/Exercises/Arrays/MedianFilter.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/MedianFilter.dir
   OBJECT_FILE_DIR = CMakeFiles/MedianFilter.dir/Exercises/Arrays
 
@@ -684,7 +684,7 @@ build CMakeFiles/MedianFilter.dir/Exercises/Arrays/MedianFilter.c.o: C_COMPILER_
 # Link the executable MedianFilter
 
 build MedianFilter: C_EXECUTABLE_LINKER__MedianFilter_Debug CMakeFiles/MedianFilter.dir/Exercises/Arrays/MedianFilter.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/MedianFilter.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -702,7 +702,7 @@ build cmake_object_order_depends_target_Strings: phony || .
 
 build CMakeFiles/Strings.dir/Exercises/Arrays/Strings.c.o: C_COMPILER__Strings_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/Strings.c || cmake_object_order_depends_target_Strings
   DEP_FILE = CMakeFiles/Strings.dir/Exercises/Arrays/Strings.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Strings.dir
   OBJECT_FILE_DIR = CMakeFiles/Strings.dir/Exercises/Arrays
 
@@ -715,7 +715,7 @@ build CMakeFiles/Strings.dir/Exercises/Arrays/Strings.c.o: C_COMPILER__Strings_u
 # Link the executable Strings
 
 build Strings: C_EXECUTABLE_LINKER__Strings_Debug CMakeFiles/Strings.dir/Exercises/Arrays/Strings.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Strings.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -733,7 +733,7 @@ build cmake_object_order_depends_target_MemoryAllocation: phony || .
 
 build CMakeFiles/MemoryAllocation.dir/Exercises/Arrays/MemoryAllocation.c.o: C_COMPILER__MemoryAllocation_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/MemoryAllocation.c || cmake_object_order_depends_target_MemoryAllocation
   DEP_FILE = CMakeFiles/MemoryAllocation.dir/Exercises/Arrays/MemoryAllocation.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/MemoryAllocation.dir
   OBJECT_FILE_DIR = CMakeFiles/MemoryAllocation.dir/Exercises/Arrays
 
@@ -746,7 +746,7 @@ build CMakeFiles/MemoryAllocation.dir/Exercises/Arrays/MemoryAllocation.c.o: C_C
 # Link the executable MemoryAllocation
 
 build MemoryAllocation: C_EXECUTABLE_LINKER__MemoryAllocation_Debug CMakeFiles/MemoryAllocation.dir/Exercises/Arrays/MemoryAllocation.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/MemoryAllocation.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -764,7 +764,7 @@ build cmake_object_order_depends_target_FindSubstring: phony || .
 
 build CMakeFiles/FindSubstring.dir/Exercises/Arrays/FindSubstring.c.o: C_COMPILER__FindSubstring_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Arrays/FindSubstring.c || cmake_object_order_depends_target_FindSubstring
   DEP_FILE = CMakeFiles/FindSubstring.dir/Exercises/Arrays/FindSubstring.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FindSubstring.dir
   OBJECT_FILE_DIR = CMakeFiles/FindSubstring.dir/Exercises/Arrays
 
@@ -777,7 +777,7 @@ build CMakeFiles/FindSubstring.dir/Exercises/Arrays/FindSubstring.c.o: C_COMPILE
 # Link the executable FindSubstring
 
 build FindSubstring: C_EXECUTABLE_LINKER__FindSubstring_Debug CMakeFiles/FindSubstring.dir/Exercises/Arrays/FindSubstring.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/FindSubstring.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -793,11 +793,11 @@ build FindSubstring: C_EXECUTABLE_LINKER__FindSubstring_Debug CMakeFiles/FindSub
 
 build cmake_object_order_depends_target_Pointers: phony || .
 
-build CMakeFiles/Pointers.dir/Basics/Pointers.c.o: C_COMPILER__Pointers_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Basics/Pointers.c || cmake_object_order_depends_target_Pointers
-  DEP_FILE = CMakeFiles/Pointers.dir/Basics/Pointers.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+build CMakeFiles/Pointers.dir/LectureStuff/Pointers/Pointers.c.o: C_COMPILER__Pointers_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LectureStuff/Pointers/Pointers.c || cmake_object_order_depends_target_Pointers
+  DEP_FILE = CMakeFiles/Pointers.dir/LectureStuff/Pointers/Pointers.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Pointers.dir
-  OBJECT_FILE_DIR = CMakeFiles/Pointers.dir/Basics
+  OBJECT_FILE_DIR = CMakeFiles/Pointers.dir/LectureStuff/Pointers
 
 
 # =============================================================================
@@ -807,8 +807,8 @@ build CMakeFiles/Pointers.dir/Basics/Pointers.c.o: C_COMPILER__Pointers_unscanne
 #############################################
 # Link the executable Pointers
 
-build Pointers: C_EXECUTABLE_LINKER__Pointers_Debug CMakeFiles/Pointers.dir/Basics/Pointers.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+build Pointers: C_EXECUTABLE_LINKER__Pointers_Debug CMakeFiles/Pointers.dir/LectureStuff/Pointers/Pointers.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/Pointers.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -826,7 +826,7 @@ build cmake_object_order_depends_target_RouteLength: phony || .
 
 build CMakeFiles/RouteLength.dir/LabWork/Lab4/RouteLength.c.o: C_COMPILER__RouteLength_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LabWork/Lab4/RouteLength.c || cmake_object_order_depends_target_RouteLength
   DEP_FILE = CMakeFiles/RouteLength.dir/LabWork/Lab4/RouteLength.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/RouteLength.dir
   OBJECT_FILE_DIR = CMakeFiles/RouteLength.dir/LabWork/Lab4
 
@@ -839,7 +839,7 @@ build CMakeFiles/RouteLength.dir/LabWork/Lab4/RouteLength.c.o: C_COMPILER__Route
 # Link the executable RouteLength
 
 build RouteLength: C_EXECUTABLE_LINKER__RouteLength_Debug CMakeFiles/RouteLength.dir/LabWork/Lab4/RouteLength.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/RouteLength.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -857,7 +857,7 @@ build cmake_object_order_depends_target_MaximumDistance: phony || .
 
 build CMakeFiles/MaximumDistance.dir/LabWork/Lab4/MaximumDistance.c.o: C_COMPILER__MaximumDistance_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LabWork/Lab4/MaximumDistance.c || cmake_object_order_depends_target_MaximumDistance
   DEP_FILE = CMakeFiles/MaximumDistance.dir/LabWork/Lab4/MaximumDistance.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/MaximumDistance.dir
   OBJECT_FILE_DIR = CMakeFiles/MaximumDistance.dir/LabWork/Lab4
 
@@ -870,7 +870,7 @@ build CMakeFiles/MaximumDistance.dir/LabWork/Lab4/MaximumDistance.c.o: C_COMPILE
 # Link the executable MaximumDistance
 
 build MaximumDistance: C_EXECUTABLE_LINKER__MaximumDistance_Debug CMakeFiles/MaximumDistance.dir/LabWork/Lab4/MaximumDistance.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/MaximumDistance.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -888,7 +888,7 @@ build cmake_object_order_depends_target_W2022-23: phony || .
 
 build CMakeFiles/W2022-23.dir/ExamTasks/W2022-23.c.o: C_COMPILER__W2022-23_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/ExamTasks/W2022-23.c || cmake_object_order_depends_target_W2022-23
   DEP_FILE = CMakeFiles/W2022-23.dir/ExamTasks/W2022-23.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/W2022-23.dir
   OBJECT_FILE_DIR = CMakeFiles/W2022-23.dir/ExamTasks
 
@@ -901,12 +901,74 @@ build CMakeFiles/W2022-23.dir/ExamTasks/W2022-23.c.o: C_COMPILER__W2022-23_unsca
 # Link the executable W2022-23
 
 build W2022-23: C_EXECUTABLE_LINKER__W2022-23_Debug CMakeFiles/W2022-23.dir/ExamTasks/W2022-23.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/W2022-23.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = W2022-23
   TARGET_PDB = W2022-23.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArraysPointers
+
+
+#############################################
+# Order-only phony target for ArraysPointers
+
+build cmake_object_order_depends_target_ArraysPointers: phony || .
+
+build CMakeFiles/ArraysPointers.dir/LectureStuff/Pointers/PointersAndArrays.c.o: C_COMPILER__ArraysPointers_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LectureStuff/Pointers/PointersAndArrays.c || cmake_object_order_depends_target_ArraysPointers
+  DEP_FILE = CMakeFiles/ArraysPointers.dir/LectureStuff/Pointers/PointersAndArrays.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ArraysPointers.dir
+  OBJECT_FILE_DIR = CMakeFiles/ArraysPointers.dir/LectureStuff/Pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArraysPointers
+
+
+#############################################
+# Link the executable ArraysPointers
+
+build ArraysPointers: C_EXECUTABLE_LINKER__ArraysPointers_Debug CMakeFiles/ArraysPointers.dir/LectureStuff/Pointers/PointersAndArrays.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/ArraysPointers.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ArraysPointers
+  TARGET_PDB = ArraysPointers.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MultidimensionalArrays
+
+
+#############################################
+# Order-only phony target for MultidimensionalArrays
+
+build cmake_object_order_depends_target_MultidimensionalArrays: phony || .
+
+build CMakeFiles/MultidimensionalArrays.dir/LectureStuff/Pointers/MultidimensionalArrays.c.o: C_COMPILER__MultidimensionalArrays_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/LectureStuff/Pointers/MultidimensionalArrays.c || cmake_object_order_depends_target_MultidimensionalArrays
+  DEP_FILE = CMakeFiles/MultidimensionalArrays.dir/LectureStuff/Pointers/MultidimensionalArrays.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/MultidimensionalArrays.dir
+  OBJECT_FILE_DIR = CMakeFiles/MultidimensionalArrays.dir/LectureStuff/Pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MultidimensionalArrays
+
+
+#############################################
+# Link the executable MultidimensionalArrays
+
+build MultidimensionalArrays: C_EXECUTABLE_LINKER__MultidimensionalArrays_Debug CMakeFiles/MultidimensionalArrays.dir/LectureStuff/Pointers/MultidimensionalArrays.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/MultidimensionalArrays.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MultidimensionalArrays
+  TARGET_PDB = MultidimensionalArrays.dbg
 
 
 #############################################
@@ -942,7 +1004,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug
 
-build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23
+build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays
 
 # =============================================================================
 # Built-in targets
