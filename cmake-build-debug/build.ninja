@@ -970,6 +970,130 @@ build MultidimensionalArrays: C_EXECUTABLE_LINKER__MultidimensionalArrays_Debug 
   TARGET_FILE = MultidimensionalArrays
   TARGET_PDB = MultidimensionalArrays.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target PointersFundamentals
+
+
+#############################################
+# Order-only phony target for PointersFundamentals
+
+build cmake_object_order_depends_target_PointersFundamentals: phony || .
+
+build CMakeFiles/PointersFundamentals.dir/Exercises/Pointers/fundamentals.c.o: C_COMPILER__PointersFundamentals_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Pointers/fundamentals.c || cmake_object_order_depends_target_PointersFundamentals
+  DEP_FILE = CMakeFiles/PointersFundamentals.dir/Exercises/Pointers/fundamentals.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PointersFundamentals.dir
+  OBJECT_FILE_DIR = CMakeFiles/PointersFundamentals.dir/Exercises/Pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PointersFundamentals
+
+
+#############################################
+# Link the executable PointersFundamentals
+
+build PointersFundamentals: C_EXECUTABLE_LINKER__PointersFundamentals_Debug CMakeFiles/PointersFundamentals.dir/Exercises/Pointers/fundamentals.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/PointersFundamentals.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = PointersFundamentals
+  TARGET_PDB = PointersFundamentals.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PointersDataTypes
+
+
+#############################################
+# Order-only phony target for PointersDataTypes
+
+build cmake_object_order_depends_target_PointersDataTypes: phony || .
+
+build CMakeFiles/PointersDataTypes.dir/Exercises/Pointers/dataTypes.c.o: C_COMPILER__PointersDataTypes_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Pointers/dataTypes.c || cmake_object_order_depends_target_PointersDataTypes
+  DEP_FILE = CMakeFiles/PointersDataTypes.dir/Exercises/Pointers/dataTypes.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PointersDataTypes.dir
+  OBJECT_FILE_DIR = CMakeFiles/PointersDataTypes.dir/Exercises/Pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PointersDataTypes
+
+
+#############################################
+# Link the executable PointersDataTypes
+
+build PointersDataTypes: C_EXECUTABLE_LINKER__PointersDataTypes_Debug CMakeFiles/PointersDataTypes.dir/Exercises/Pointers/dataTypes.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/PointersDataTypes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = PointersDataTypes
+  TARGET_PDB = PointersDataTypes.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PointersArrays
+
+
+#############################################
+# Order-only phony target for PointersArrays
+
+build cmake_object_order_depends_target_PointersArrays: phony || .
+
+build CMakeFiles/PointersArrays.dir/Exercises/Pointers/arrays.c.o: C_COMPILER__PointersArrays_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Pointers/arrays.c || cmake_object_order_depends_target_PointersArrays
+  DEP_FILE = CMakeFiles/PointersArrays.dir/Exercises/Pointers/arrays.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PointersArrays.dir
+  OBJECT_FILE_DIR = CMakeFiles/PointersArrays.dir/Exercises/Pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PointersArrays
+
+
+#############################################
+# Link the executable PointersArrays
+
+build PointersArrays: C_EXECUTABLE_LINKER__PointersArrays_Debug CMakeFiles/PointersArrays.dir/Exercises/Pointers/arrays.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/PointersArrays.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = PointersArrays
+  TARGET_PDB = PointersArrays.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PointersStrings
+
+
+#############################################
+# Order-only phony target for PointersStrings
+
+build cmake_object_order_depends_target_PointersStrings: phony || .
+
+build CMakeFiles/PointersStrings.dir/Exercises/Pointers/strings.c.o: C_COMPILER__PointersStrings_unscanned_Debug /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/Exercises/Pointers/strings.c || cmake_object_order_depends_target_PointersStrings
+  DEP_FILE = CMakeFiles/PointersStrings.dir/Exercises/Pointers/strings.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PointersStrings.dir
+  OBJECT_FILE_DIR = CMakeFiles/PointersStrings.dir/Exercises/Pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PointersStrings
+
+
+#############################################
+# Link the executable PointersStrings
+
+build PointersStrings: C_EXECUTABLE_LINKER__PointersStrings_Debug CMakeFiles/PointersStrings.dir/Exercises/Pointers/strings.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/PointersStrings.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = PointersStrings
+  TARGET_PDB = PointersStrings.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1004,7 +1128,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug
 
-build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays
+build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings
 
 # =============================================================================
 # Built-in targets

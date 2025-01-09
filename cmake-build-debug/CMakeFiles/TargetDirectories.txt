@@ -28,5 +28,9 @@
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/W2022-23.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/ArraysPointers.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MultidimensionalArrays.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersFundamentals.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersDataTypes.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersArrays.dir
+/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersStrings.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
