@@ -1,36 +1,36 @@
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Main.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Calculator.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Lec2.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec2.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec3.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Lec3.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Lec4.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec4.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/LSL_Exam_Task.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Question_14_2.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Dice.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec6.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/CleanInput.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/LeibnizSeries.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Bisection.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Hemispheres.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Distances.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/1D_arrays.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/ArrayDice.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/EqualArrays.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MedianFilter.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Strings.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MemoryAllocation.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/FindSubstring.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Pointers.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/RouteLength.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MaximumDistance.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/W2022-23.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/ArraysPointers.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MultidimensionalArrays.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersFundamentals.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersDataTypes.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersArrays.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersStrings.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/imran.rizwan/Documents/Uni/SO1/UniWorkC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Main.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Calculator.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Lec2.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec2.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec3.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Lec3.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Lec4.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec4.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/LSL_Exam_Task.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Question_14_2.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Dice.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec6.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/CleanInput.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/LeibnizSeries.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Bisection.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Hemispheres.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Distances.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/1D_arrays.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/ArrayDice.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/EqualArrays.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MedianFilter.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Strings.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MemoryAllocation.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/FindSubstring.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Pointers.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/RouteLength.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MaximumDistance.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/W2022-23.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/ArraysPointers.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MultidimensionalArrays.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersFundamentals.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersDataTypes.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersArrays.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersStrings.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
