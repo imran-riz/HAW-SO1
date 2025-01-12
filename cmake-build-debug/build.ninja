@@ -1311,6 +1311,68 @@ build Enums: C_EXECUTABLE_LINKER__Enums_Debug CMakeFiles/Enums.dir/LectureStuff/
   TARGET_FILE = Enums
   TARGET_PDB = Enums.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Lab5
+
+
+#############################################
+# Order-only phony target for Lab5
+
+build cmake_object_order_depends_target_Lab5: phony || .
+
+build CMakeFiles/Lab5.dir/LabWork/Lab5/FirstAssignment.c.o: C_COMPILER__Lab5_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/LabWork/Lab5/FirstAssignment.c || cmake_object_order_depends_target_Lab5
+  DEP_FILE = CMakeFiles/Lab5.dir/LabWork/Lab5/FirstAssignment.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Lab5.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab5.dir/LabWork/Lab5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Lab5
+
+
+#############################################
+# Link the executable Lab5
+
+build Lab5: C_EXECUTABLE_LINKER__Lab5_Debug CMakeFiles/Lab5.dir/LabWork/Lab5/FirstAssignment.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/Lab5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Lab5
+  TARGET_PDB = Lab5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SecondAssignment
+
+
+#############################################
+# Order-only phony target for SecondAssignment
+
+build cmake_object_order_depends_target_SecondAssignment: phony || .
+
+build CMakeFiles/SecondAssignment.dir/LabWork/Lab5/SecondAssignment.c.o: C_COMPILER__SecondAssignment_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/LabWork/Lab5/SecondAssignment.c || cmake_object_order_depends_target_SecondAssignment
+  DEP_FILE = CMakeFiles/SecondAssignment.dir/LabWork/Lab5/SecondAssignment.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SecondAssignment.dir
+  OBJECT_FILE_DIR = CMakeFiles/SecondAssignment.dir/LabWork/Lab5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SecondAssignment
+
+
+#############################################
+# Link the executable SecondAssignment
+
+build SecondAssignment: C_EXECUTABLE_LINKER__SecondAssignment_Debug CMakeFiles/SecondAssignment.dir/LabWork/Lab5/SecondAssignment.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/SecondAssignment.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SecondAssignment
+  TARGET_PDB = SecondAssignment.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1345,7 +1407,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug
 
-build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings Scope PolarCoords Main2 MyStrings StructBasics StructArraysAndPointers Enums
+build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings Scope PolarCoords Main2 MyStrings StructBasics StructArraysAndPointers Enums Lab5 SecondAssignment
 
 # =============================================================================
 # Built-in targets

@@ -39,5 +39,7 @@
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/StructBasics.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/StructArraysAndPointers.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Enums.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Lab5.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/SecondAssignment.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
