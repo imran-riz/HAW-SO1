@@ -54,8 +54,6 @@ build CMakeFiles/Main.dir/main.c.o: C_COMPILER__Main_unscanned_Debug /Users/imra
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Main.dir
   OBJECT_FILE_DIR = CMakeFiles/Main.dir
-  TARGET_COMPILE_PDB = CMakeFiles/Main.dir/
-  TARGET_PDB = Main.pdb
 
 
 # =============================================================================
@@ -70,9 +68,8 @@ build Main: C_EXECUTABLE_LINKER__Main_Debug CMakeFiles/Main.dir/main.c.o
   OBJECT_DIR = CMakeFiles/Main.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Main.dir/
   TARGET_FILE = Main
-  TARGET_PDB = Main.pdb
+  TARGET_PDB = Main.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Calculator
@@ -88,8 +85,6 @@ build CMakeFiles/Calculator.dir/Basics/Calculator.c.o: C_COMPILER__Calculator_un
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Calculator.dir
   OBJECT_FILE_DIR = CMakeFiles/Calculator.dir/Basics
-  TARGET_COMPILE_PDB = CMakeFiles/Calculator.dir/
-  TARGET_PDB = Calculator.pdb
 
 
 # =============================================================================
@@ -104,9 +99,8 @@ build Calculator: C_EXECUTABLE_LINKER__Calculator_Debug CMakeFiles/Calculator.di
   OBJECT_DIR = CMakeFiles/Calculator.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Calculator.dir/
   TARGET_FILE = Calculator
-  TARGET_PDB = Calculator.pdb
+  TARGET_PDB = Calculator.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Lec2
@@ -122,8 +116,6 @@ build CMakeFiles/Lec2.dir/LectureStuff/Lec2.c.o: C_COMPILER__Lec2_unscanned_Debu
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Lec2.dir
   OBJECT_FILE_DIR = CMakeFiles/Lec2.dir/LectureStuff
-  TARGET_COMPILE_PDB = CMakeFiles/Lec2.dir/
-  TARGET_PDB = Lec2.pdb
 
 
 # =============================================================================
@@ -138,9 +130,8 @@ build Lec2: C_EXECUTABLE_LINKER__Lec2_Debug CMakeFiles/Lec2.dir/LectureStuff/Lec
   OBJECT_DIR = CMakeFiles/Lec2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Lec2.dir/
   TARGET_FILE = Lec2
-  TARGET_PDB = Lec2.pdb
+  TARGET_PDB = Lec2.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target AfterLec2
@@ -156,8 +147,6 @@ build CMakeFiles/AfterLec2.dir/Exercises/AfterLec2.c.o: C_COMPILER__AfterLec2_un
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/AfterLec2.dir
   OBJECT_FILE_DIR = CMakeFiles/AfterLec2.dir/Exercises
-  TARGET_COMPILE_PDB = CMakeFiles/AfterLec2.dir/
-  TARGET_PDB = AfterLec2.pdb
 
 
 # =============================================================================
@@ -172,9 +161,8 @@ build AfterLec2: C_EXECUTABLE_LINKER__AfterLec2_Debug CMakeFiles/AfterLec2.dir/E
   OBJECT_DIR = CMakeFiles/AfterLec2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/AfterLec2.dir/
   TARGET_FILE = AfterLec2
-  TARGET_PDB = AfterLec2.pdb
+  TARGET_PDB = AfterLec2.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target AfterLec3
@@ -190,8 +178,6 @@ build CMakeFiles/AfterLec3.dir/Exercises/AfterLec3.c.o: C_COMPILER__AfterLec3_un
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/AfterLec3.dir
   OBJECT_FILE_DIR = CMakeFiles/AfterLec3.dir/Exercises
-  TARGET_COMPILE_PDB = CMakeFiles/AfterLec3.dir/
-  TARGET_PDB = AfterLec3.pdb
 
 
 # =============================================================================
@@ -206,9 +192,8 @@ build AfterLec3: C_EXECUTABLE_LINKER__AfterLec3_Debug CMakeFiles/AfterLec3.dir/E
   OBJECT_DIR = CMakeFiles/AfterLec3.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/AfterLec3.dir/
   TARGET_FILE = AfterLec3
-  TARGET_PDB = AfterLec3.pdb
+  TARGET_PDB = AfterLec3.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Lec3
@@ -224,8 +209,6 @@ build CMakeFiles/Lec3.dir/LectureStuff/Lec3.c.o: C_COMPILER__Lec3_unscanned_Debu
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Lec3.dir
   OBJECT_FILE_DIR = CMakeFiles/Lec3.dir/LectureStuff
-  TARGET_COMPILE_PDB = CMakeFiles/Lec3.dir/
-  TARGET_PDB = Lec3.pdb
 
 
 # =============================================================================
@@ -240,9 +223,8 @@ build Lec3: C_EXECUTABLE_LINKER__Lec3_Debug CMakeFiles/Lec3.dir/LectureStuff/Lec
   OBJECT_DIR = CMakeFiles/Lec3.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Lec3.dir/
   TARGET_FILE = Lec3
-  TARGET_PDB = Lec3.pdb
+  TARGET_PDB = Lec3.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Lec4
@@ -258,8 +240,6 @@ build CMakeFiles/Lec4.dir/LectureStuff/Lec4.c.o: C_COMPILER__Lec4_unscanned_Debu
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Lec4.dir
   OBJECT_FILE_DIR = CMakeFiles/Lec4.dir/LectureStuff
-  TARGET_COMPILE_PDB = CMakeFiles/Lec4.dir/
-  TARGET_PDB = Lec4.pdb
 
 
 # =============================================================================
@@ -274,9 +254,8 @@ build Lec4: C_EXECUTABLE_LINKER__Lec4_Debug CMakeFiles/Lec4.dir/LectureStuff/Lec
   OBJECT_DIR = CMakeFiles/Lec4.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Lec4.dir/
   TARGET_FILE = Lec4
-  TARGET_PDB = Lec4.pdb
+  TARGET_PDB = Lec4.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target AfterLec4
@@ -292,8 +271,6 @@ build CMakeFiles/AfterLec4.dir/Exercises/AfterLec4.c.o: C_COMPILER__AfterLec4_un
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/AfterLec4.dir
   OBJECT_FILE_DIR = CMakeFiles/AfterLec4.dir/Exercises
-  TARGET_COMPILE_PDB = CMakeFiles/AfterLec4.dir/
-  TARGET_PDB = AfterLec4.pdb
 
 
 # =============================================================================
@@ -308,9 +285,8 @@ build AfterLec4: C_EXECUTABLE_LINKER__AfterLec4_Debug CMakeFiles/AfterLec4.dir/E
   OBJECT_DIR = CMakeFiles/AfterLec4.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/AfterLec4.dir/
   TARGET_FILE = AfterLec4
-  TARGET_PDB = AfterLec4.pdb
+  TARGET_PDB = AfterLec4.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target LSL_Exam_Task
@@ -326,8 +302,6 @@ build CMakeFiles/LSL_Exam_Task.dir/ExamTasks/LSL_Exam_Task.c.o: C_COMPILER__LSL_
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LSL_Exam_Task.dir
   OBJECT_FILE_DIR = CMakeFiles/LSL_Exam_Task.dir/ExamTasks
-  TARGET_COMPILE_PDB = CMakeFiles/LSL_Exam_Task.dir/
-  TARGET_PDB = LSL_Exam_Task.pdb
 
 
 # =============================================================================
@@ -342,9 +316,8 @@ build LSL_Exam_Task: C_EXECUTABLE_LINKER__LSL_Exam_Task_Debug CMakeFiles/LSL_Exa
   OBJECT_DIR = CMakeFiles/LSL_Exam_Task.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/LSL_Exam_Task.dir/
   TARGET_FILE = LSL_Exam_Task
-  TARGET_PDB = LSL_Exam_Task.pdb
+  TARGET_PDB = LSL_Exam_Task.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Question_14_2
@@ -360,8 +333,6 @@ build CMakeFiles/Question_14_2.dir/LabWork/Lab2/question_14_2.c.o: C_COMPILER__Q
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Question_14_2.dir
   OBJECT_FILE_DIR = CMakeFiles/Question_14_2.dir/LabWork/Lab2
-  TARGET_COMPILE_PDB = CMakeFiles/Question_14_2.dir/
-  TARGET_PDB = Question_14_2.pdb
 
 
 # =============================================================================
@@ -376,9 +347,8 @@ build Question_14_2: C_EXECUTABLE_LINKER__Question_14_2_Debug CMakeFiles/Questio
   OBJECT_DIR = CMakeFiles/Question_14_2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Question_14_2.dir/
   TARGET_FILE = Question_14_2
-  TARGET_PDB = Question_14_2.pdb
+  TARGET_PDB = Question_14_2.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Dice
@@ -394,8 +364,6 @@ build CMakeFiles/Dice.dir/Exercises/AfterLec5/Dice.c.o: C_COMPILER__Dice_unscann
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Dice.dir
   OBJECT_FILE_DIR = CMakeFiles/Dice.dir/Exercises/AfterLec5
-  TARGET_COMPILE_PDB = CMakeFiles/Dice.dir/
-  TARGET_PDB = Dice.pdb
 
 
 # =============================================================================
@@ -410,9 +378,8 @@ build Dice: C_EXECUTABLE_LINKER__Dice_Debug CMakeFiles/Dice.dir/Exercises/AfterL
   OBJECT_DIR = CMakeFiles/Dice.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Dice.dir/
   TARGET_FILE = Dice
-  TARGET_PDB = Dice.pdb
+  TARGET_PDB = Dice.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target AfterLec6
@@ -428,8 +395,6 @@ build CMakeFiles/AfterLec6.dir/Exercises/AfterLec6.c.o: C_COMPILER__AfterLec6_un
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/AfterLec6.dir
   OBJECT_FILE_DIR = CMakeFiles/AfterLec6.dir/Exercises
-  TARGET_COMPILE_PDB = CMakeFiles/AfterLec6.dir/
-  TARGET_PDB = AfterLec6.pdb
 
 
 # =============================================================================
@@ -444,9 +409,8 @@ build AfterLec6: C_EXECUTABLE_LINKER__AfterLec6_Debug CMakeFiles/AfterLec6.dir/E
   OBJECT_DIR = CMakeFiles/AfterLec6.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/AfterLec6.dir/
   TARGET_FILE = AfterLec6
-  TARGET_PDB = AfterLec6.pdb
+  TARGET_PDB = AfterLec6.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CleanInput
@@ -462,8 +426,6 @@ build CMakeFiles/CleanInput.dir/LectureStuff/Lec5/CleanInput.c.o: C_COMPILER__Cl
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CleanInput.dir
   OBJECT_FILE_DIR = CMakeFiles/CleanInput.dir/LectureStuff/Lec5
-  TARGET_COMPILE_PDB = CMakeFiles/CleanInput.dir/
-  TARGET_PDB = CleanInput.pdb
 
 
 # =============================================================================
@@ -478,9 +440,8 @@ build CleanInput: C_EXECUTABLE_LINKER__CleanInput_Debug CMakeFiles/CleanInput.di
   OBJECT_DIR = CMakeFiles/CleanInput.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/CleanInput.dir/
   TARGET_FILE = CleanInput
-  TARGET_PDB = CleanInput.pdb
+  TARGET_PDB = CleanInput.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target LeibnizSeries
@@ -496,8 +457,6 @@ build CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5/LeibnizSeries.c.o: C_COMP
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LeibnizSeries.dir
   OBJECT_FILE_DIR = CMakeFiles/LeibnizSeries.dir/Exercises/AfterLec5
-  TARGET_COMPILE_PDB = CMakeFiles/LeibnizSeries.dir/
-  TARGET_PDB = LeibnizSeries.pdb
 
 
 # =============================================================================
@@ -512,9 +471,8 @@ build LeibnizSeries: C_EXECUTABLE_LINKER__LeibnizSeries_Debug CMakeFiles/Leibniz
   OBJECT_DIR = CMakeFiles/LeibnizSeries.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/LeibnizSeries.dir/
   TARGET_FILE = LeibnizSeries
-  TARGET_PDB = LeibnizSeries.pdb
+  TARGET_PDB = LeibnizSeries.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Bisection
@@ -530,8 +488,6 @@ build CMakeFiles/Bisection.dir/Exercises/AfterLec5/Bisection.c.o: C_COMPILER__Bi
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Bisection.dir
   OBJECT_FILE_DIR = CMakeFiles/Bisection.dir/Exercises/AfterLec5
-  TARGET_COMPILE_PDB = CMakeFiles/Bisection.dir/
-  TARGET_PDB = Bisection.pdb
 
 
 # =============================================================================
@@ -546,9 +502,8 @@ build Bisection: C_EXECUTABLE_LINKER__Bisection_Debug CMakeFiles/Bisection.dir/E
   OBJECT_DIR = CMakeFiles/Bisection.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Bisection.dir/
   TARGET_FILE = Bisection
-  TARGET_PDB = Bisection.pdb
+  TARGET_PDB = Bisection.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Hemispheres
@@ -564,8 +519,6 @@ build CMakeFiles/Hemispheres.dir/LabWork/Lab3/Hemispheres.c.o: C_COMPILER__Hemis
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Hemispheres.dir
   OBJECT_FILE_DIR = CMakeFiles/Hemispheres.dir/LabWork/Lab3
-  TARGET_COMPILE_PDB = CMakeFiles/Hemispheres.dir/
-  TARGET_PDB = Hemispheres.pdb
 
 
 # =============================================================================
@@ -580,9 +533,8 @@ build Hemispheres: C_EXECUTABLE_LINKER__Hemispheres_Debug CMakeFiles/Hemispheres
   OBJECT_DIR = CMakeFiles/Hemispheres.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Hemispheres.dir/
   TARGET_FILE = Hemispheres
-  TARGET_PDB = Hemispheres.pdb
+  TARGET_PDB = Hemispheres.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Distances
@@ -598,8 +550,6 @@ build CMakeFiles/Distances.dir/LabWork/Lab3/Distances.c.o: C_COMPILER__Distances
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Distances.dir
   OBJECT_FILE_DIR = CMakeFiles/Distances.dir/LabWork/Lab3
-  TARGET_COMPILE_PDB = CMakeFiles/Distances.dir/
-  TARGET_PDB = Distances.pdb
 
 
 # =============================================================================
@@ -614,9 +564,8 @@ build Distances: C_EXECUTABLE_LINKER__Distances_Debug CMakeFiles/Distances.dir/L
   OBJECT_DIR = CMakeFiles/Distances.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Distances.dir/
   TARGET_FILE = Distances
-  TARGET_PDB = Distances.pdb
+  TARGET_PDB = Distances.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1D_arrays
@@ -632,8 +581,6 @@ build CMakeFiles/1D_arrays.dir/Basics/1D_arrays.c.o: C_COMPILER__1D_arrays_unsca
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/1D_arrays.dir
   OBJECT_FILE_DIR = CMakeFiles/1D_arrays.dir/Basics
-  TARGET_COMPILE_PDB = CMakeFiles/1D_arrays.dir/
-  TARGET_PDB = 1D_arrays.pdb
 
 
 # =============================================================================
@@ -648,9 +595,8 @@ build 1D_arrays: C_EXECUTABLE_LINKER__1D_arrays_Debug CMakeFiles/1D_arrays.dir/B
   OBJECT_DIR = CMakeFiles/1D_arrays.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/1D_arrays.dir/
   TARGET_FILE = 1D_arrays
-  TARGET_PDB = 1D_arrays.pdb
+  TARGET_PDB = 1D_arrays.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ArrayDice
@@ -666,8 +612,6 @@ build CMakeFiles/ArrayDice.dir/Exercises/Arrays/Dice.c.o: C_COMPILER__ArrayDice_
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ArrayDice.dir
   OBJECT_FILE_DIR = CMakeFiles/ArrayDice.dir/Exercises/Arrays
-  TARGET_COMPILE_PDB = CMakeFiles/ArrayDice.dir/
-  TARGET_PDB = ArrayDice.pdb
 
 
 # =============================================================================
@@ -682,9 +626,8 @@ build ArrayDice: C_EXECUTABLE_LINKER__ArrayDice_Debug CMakeFiles/ArrayDice.dir/E
   OBJECT_DIR = CMakeFiles/ArrayDice.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ArrayDice.dir/
   TARGET_FILE = ArrayDice
-  TARGET_PDB = ArrayDice.pdb
+  TARGET_PDB = ArrayDice.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target EqualArrays
@@ -700,8 +643,6 @@ build CMakeFiles/EqualArrays.dir/Exercises/Arrays/EqualArrays.c.o: C_COMPILER__E
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/EqualArrays.dir
   OBJECT_FILE_DIR = CMakeFiles/EqualArrays.dir/Exercises/Arrays
-  TARGET_COMPILE_PDB = CMakeFiles/EqualArrays.dir/
-  TARGET_PDB = EqualArrays.pdb
 
 
 # =============================================================================
@@ -716,9 +657,8 @@ build EqualArrays: C_EXECUTABLE_LINKER__EqualArrays_Debug CMakeFiles/EqualArrays
   OBJECT_DIR = CMakeFiles/EqualArrays.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/EqualArrays.dir/
   TARGET_FILE = EqualArrays
-  TARGET_PDB = EqualArrays.pdb
+  TARGET_PDB = EqualArrays.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MedianFilter
@@ -734,8 +674,6 @@ build CMakeFiles/MedianFilter.dir/Exercises/Arrays/MedianFilter.c.o: C_COMPILER_
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/MedianFilter.dir
   OBJECT_FILE_DIR = CMakeFiles/MedianFilter.dir/Exercises/Arrays
-  TARGET_COMPILE_PDB = CMakeFiles/MedianFilter.dir/
-  TARGET_PDB = MedianFilter.pdb
 
 
 # =============================================================================
@@ -750,9 +688,8 @@ build MedianFilter: C_EXECUTABLE_LINKER__MedianFilter_Debug CMakeFiles/MedianFil
   OBJECT_DIR = CMakeFiles/MedianFilter.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/MedianFilter.dir/
   TARGET_FILE = MedianFilter
-  TARGET_PDB = MedianFilter.pdb
+  TARGET_PDB = MedianFilter.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Strings
@@ -768,8 +705,6 @@ build CMakeFiles/Strings.dir/Exercises/Arrays/Strings.c.o: C_COMPILER__Strings_u
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Strings.dir
   OBJECT_FILE_DIR = CMakeFiles/Strings.dir/Exercises/Arrays
-  TARGET_COMPILE_PDB = CMakeFiles/Strings.dir/
-  TARGET_PDB = Strings.pdb
 
 
 # =============================================================================
@@ -784,9 +719,8 @@ build Strings: C_EXECUTABLE_LINKER__Strings_Debug CMakeFiles/Strings.dir/Exercis
   OBJECT_DIR = CMakeFiles/Strings.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Strings.dir/
   TARGET_FILE = Strings
-  TARGET_PDB = Strings.pdb
+  TARGET_PDB = Strings.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MemoryAllocation
@@ -802,8 +736,6 @@ build CMakeFiles/MemoryAllocation.dir/Exercises/Arrays/MemoryAllocation.c.o: C_C
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/MemoryAllocation.dir
   OBJECT_FILE_DIR = CMakeFiles/MemoryAllocation.dir/Exercises/Arrays
-  TARGET_COMPILE_PDB = CMakeFiles/MemoryAllocation.dir/
-  TARGET_PDB = MemoryAllocation.pdb
 
 
 # =============================================================================
@@ -818,9 +750,8 @@ build MemoryAllocation: C_EXECUTABLE_LINKER__MemoryAllocation_Debug CMakeFiles/M
   OBJECT_DIR = CMakeFiles/MemoryAllocation.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/MemoryAllocation.dir/
   TARGET_FILE = MemoryAllocation
-  TARGET_PDB = MemoryAllocation.pdb
+  TARGET_PDB = MemoryAllocation.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FindSubstring
@@ -836,8 +767,6 @@ build CMakeFiles/FindSubstring.dir/Exercises/Arrays/FindSubstring.c.o: C_COMPILE
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FindSubstring.dir
   OBJECT_FILE_DIR = CMakeFiles/FindSubstring.dir/Exercises/Arrays
-  TARGET_COMPILE_PDB = CMakeFiles/FindSubstring.dir/
-  TARGET_PDB = FindSubstring.pdb
 
 
 # =============================================================================
@@ -852,9 +781,8 @@ build FindSubstring: C_EXECUTABLE_LINKER__FindSubstring_Debug CMakeFiles/FindSub
   OBJECT_DIR = CMakeFiles/FindSubstring.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/FindSubstring.dir/
   TARGET_FILE = FindSubstring
-  TARGET_PDB = FindSubstring.pdb
+  TARGET_PDB = FindSubstring.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Pointers
@@ -870,8 +798,6 @@ build CMakeFiles/Pointers.dir/LectureStuff/Pointers/Pointers.c.o: C_COMPILER__Po
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Pointers.dir
   OBJECT_FILE_DIR = CMakeFiles/Pointers.dir/LectureStuff/Pointers
-  TARGET_COMPILE_PDB = CMakeFiles/Pointers.dir/
-  TARGET_PDB = Pointers.pdb
 
 
 # =============================================================================
@@ -886,9 +812,8 @@ build Pointers: C_EXECUTABLE_LINKER__Pointers_Debug CMakeFiles/Pointers.dir/Lect
   OBJECT_DIR = CMakeFiles/Pointers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Pointers.dir/
   TARGET_FILE = Pointers
-  TARGET_PDB = Pointers.pdb
+  TARGET_PDB = Pointers.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target RouteLength
@@ -904,8 +829,6 @@ build CMakeFiles/RouteLength.dir/LabWork/Lab4/RouteLength.c.o: C_COMPILER__Route
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/RouteLength.dir
   OBJECT_FILE_DIR = CMakeFiles/RouteLength.dir/LabWork/Lab4
-  TARGET_COMPILE_PDB = CMakeFiles/RouteLength.dir/
-  TARGET_PDB = RouteLength.pdb
 
 
 # =============================================================================
@@ -920,9 +843,8 @@ build RouteLength: C_EXECUTABLE_LINKER__RouteLength_Debug CMakeFiles/RouteLength
   OBJECT_DIR = CMakeFiles/RouteLength.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/RouteLength.dir/
   TARGET_FILE = RouteLength
-  TARGET_PDB = RouteLength.pdb
+  TARGET_PDB = RouteLength.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MaximumDistance
@@ -938,8 +860,6 @@ build CMakeFiles/MaximumDistance.dir/LabWork/Lab4/MaximumDistance.c.o: C_COMPILE
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/MaximumDistance.dir
   OBJECT_FILE_DIR = CMakeFiles/MaximumDistance.dir/LabWork/Lab4
-  TARGET_COMPILE_PDB = CMakeFiles/MaximumDistance.dir/
-  TARGET_PDB = MaximumDistance.pdb
 
 
 # =============================================================================
@@ -954,9 +874,8 @@ build MaximumDistance: C_EXECUTABLE_LINKER__MaximumDistance_Debug CMakeFiles/Max
   OBJECT_DIR = CMakeFiles/MaximumDistance.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/MaximumDistance.dir/
   TARGET_FILE = MaximumDistance
-  TARGET_PDB = MaximumDistance.pdb
+  TARGET_PDB = MaximumDistance.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target W2022-23
@@ -972,8 +891,6 @@ build CMakeFiles/W2022-23.dir/ExamTasks/W2022-23.c.o: C_COMPILER__W2022-23_unsca
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/W2022-23.dir
   OBJECT_FILE_DIR = CMakeFiles/W2022-23.dir/ExamTasks
-  TARGET_COMPILE_PDB = CMakeFiles/W2022-23.dir/
-  TARGET_PDB = W2022-23.pdb
 
 
 # =============================================================================
@@ -988,9 +905,8 @@ build W2022-23: C_EXECUTABLE_LINKER__W2022-23_Debug CMakeFiles/W2022-23.dir/Exam
   OBJECT_DIR = CMakeFiles/W2022-23.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/W2022-23.dir/
   TARGET_FILE = W2022-23
-  TARGET_PDB = W2022-23.pdb
+  TARGET_PDB = W2022-23.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target ArraysPointers
@@ -1006,8 +922,6 @@ build CMakeFiles/ArraysPointers.dir/LectureStuff/Pointers/PointersAndArrays.c.o:
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ArraysPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/ArraysPointers.dir/LectureStuff/Pointers
-  TARGET_COMPILE_PDB = CMakeFiles/ArraysPointers.dir/
-  TARGET_PDB = ArraysPointers.pdb
 
 
 # =============================================================================
@@ -1022,9 +936,8 @@ build ArraysPointers: C_EXECUTABLE_LINKER__ArraysPointers_Debug CMakeFiles/Array
   OBJECT_DIR = CMakeFiles/ArraysPointers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ArraysPointers.dir/
   TARGET_FILE = ArraysPointers
-  TARGET_PDB = ArraysPointers.pdb
+  TARGET_PDB = ArraysPointers.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MultidimensionalArrays
@@ -1040,8 +953,6 @@ build CMakeFiles/MultidimensionalArrays.dir/LectureStuff/Pointers/Multidimension
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/MultidimensionalArrays.dir
   OBJECT_FILE_DIR = CMakeFiles/MultidimensionalArrays.dir/LectureStuff/Pointers
-  TARGET_COMPILE_PDB = CMakeFiles/MultidimensionalArrays.dir/
-  TARGET_PDB = MultidimensionalArrays.pdb
 
 
 # =============================================================================
@@ -1056,9 +967,8 @@ build MultidimensionalArrays: C_EXECUTABLE_LINKER__MultidimensionalArrays_Debug 
   OBJECT_DIR = CMakeFiles/MultidimensionalArrays.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/MultidimensionalArrays.dir/
   TARGET_FILE = MultidimensionalArrays
-  TARGET_PDB = MultidimensionalArrays.pdb
+  TARGET_PDB = MultidimensionalArrays.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PointersFundamentals
@@ -1074,8 +984,6 @@ build CMakeFiles/PointersFundamentals.dir/Exercises/Pointers/fundamentals.c.o: C
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PointersFundamentals.dir
   OBJECT_FILE_DIR = CMakeFiles/PointersFundamentals.dir/Exercises/Pointers
-  TARGET_COMPILE_PDB = CMakeFiles/PointersFundamentals.dir/
-  TARGET_PDB = PointersFundamentals.pdb
 
 
 # =============================================================================
@@ -1090,9 +998,8 @@ build PointersFundamentals: C_EXECUTABLE_LINKER__PointersFundamentals_Debug CMak
   OBJECT_DIR = CMakeFiles/PointersFundamentals.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/PointersFundamentals.dir/
   TARGET_FILE = PointersFundamentals
-  TARGET_PDB = PointersFundamentals.pdb
+  TARGET_PDB = PointersFundamentals.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PointersDataTypes
@@ -1108,8 +1015,6 @@ build CMakeFiles/PointersDataTypes.dir/Exercises/Pointers/dataTypes.c.o: C_COMPI
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PointersDataTypes.dir
   OBJECT_FILE_DIR = CMakeFiles/PointersDataTypes.dir/Exercises/Pointers
-  TARGET_COMPILE_PDB = CMakeFiles/PointersDataTypes.dir/
-  TARGET_PDB = PointersDataTypes.pdb
 
 
 # =============================================================================
@@ -1124,9 +1029,8 @@ build PointersDataTypes: C_EXECUTABLE_LINKER__PointersDataTypes_Debug CMakeFiles
   OBJECT_DIR = CMakeFiles/PointersDataTypes.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/PointersDataTypes.dir/
   TARGET_FILE = PointersDataTypes
-  TARGET_PDB = PointersDataTypes.pdb
+  TARGET_PDB = PointersDataTypes.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PointersArrays
@@ -1142,8 +1046,6 @@ build CMakeFiles/PointersArrays.dir/Exercises/Pointers/arrays.c.o: C_COMPILER__P
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PointersArrays.dir
   OBJECT_FILE_DIR = CMakeFiles/PointersArrays.dir/Exercises/Pointers
-  TARGET_COMPILE_PDB = CMakeFiles/PointersArrays.dir/
-  TARGET_PDB = PointersArrays.pdb
 
 
 # =============================================================================
@@ -1158,9 +1060,8 @@ build PointersArrays: C_EXECUTABLE_LINKER__PointersArrays_Debug CMakeFiles/Point
   OBJECT_DIR = CMakeFiles/PointersArrays.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/PointersArrays.dir/
   TARGET_FILE = PointersArrays
-  TARGET_PDB = PointersArrays.pdb
+  TARGET_PDB = PointersArrays.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PointersStrings
@@ -1176,8 +1077,6 @@ build CMakeFiles/PointersStrings.dir/Exercises/Pointers/strings.c.o: C_COMPILER_
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PointersStrings.dir
   OBJECT_FILE_DIR = CMakeFiles/PointersStrings.dir/Exercises/Pointers
-  TARGET_COMPILE_PDB = CMakeFiles/PointersStrings.dir/
-  TARGET_PDB = PointersStrings.pdb
 
 
 # =============================================================================
@@ -1192,9 +1091,225 @@ build PointersStrings: C_EXECUTABLE_LINKER__PointersStrings_Debug CMakeFiles/Poi
   OBJECT_DIR = CMakeFiles/PointersStrings.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/PointersStrings.dir/
   TARGET_FILE = PointersStrings
-  TARGET_PDB = PointersStrings.pdb
+  TARGET_PDB = PointersStrings.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Scope
+
+
+#############################################
+# Order-only phony target for Scope
+
+build cmake_object_order_depends_target_Scope: phony || .
+
+build CMakeFiles/Scope.dir/LectureStuff/MemoryManagement/Scope.c.o: C_COMPILER__Scope_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/LectureStuff/MemoryManagement/Scope.c || cmake_object_order_depends_target_Scope
+  DEP_FILE = CMakeFiles/Scope.dir/LectureStuff/MemoryManagement/Scope.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Scope.dir
+  OBJECT_FILE_DIR = CMakeFiles/Scope.dir/LectureStuff/MemoryManagement
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Scope
+
+
+#############################################
+# Link the executable Scope
+
+build Scope: C_EXECUTABLE_LINKER__Scope_Debug CMakeFiles/Scope.dir/LectureStuff/MemoryManagement/Scope.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/Scope.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Scope
+  TARGET_PDB = Scope.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PolarCoords
+
+
+#############################################
+# Order-only phony target for PolarCoords
+
+build cmake_object_order_depends_target_PolarCoords: phony || .
+
+build CMakeFiles/PolarCoords.dir/LectureStuff/MemoryManagement/PolarCoords.c.o: C_COMPILER__PolarCoords_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/LectureStuff/MemoryManagement/PolarCoords.c || cmake_object_order_depends_target_PolarCoords
+  DEP_FILE = CMakeFiles/PolarCoords.dir/LectureStuff/MemoryManagement/PolarCoords.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PolarCoords.dir
+  OBJECT_FILE_DIR = CMakeFiles/PolarCoords.dir/LectureStuff/MemoryManagement
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PolarCoords
+
+
+#############################################
+# Link the executable PolarCoords
+
+build PolarCoords: C_EXECUTABLE_LINKER__PolarCoords_Debug CMakeFiles/PolarCoords.dir/LectureStuff/MemoryManagement/PolarCoords.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/PolarCoords.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = PolarCoords
+  TARGET_PDB = PolarCoords.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Main2
+
+
+#############################################
+# Order-only phony target for Main2
+
+build cmake_object_order_depends_target_Main2: phony || .
+
+build CMakeFiles/Main2.dir/LectureStuff/MemoryManagement/Main.c.o: C_COMPILER__Main2_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/LectureStuff/MemoryManagement/Main.c || cmake_object_order_depends_target_Main2
+  DEP_FILE = CMakeFiles/Main2.dir/LectureStuff/MemoryManagement/Main.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Main2.dir
+  OBJECT_FILE_DIR = CMakeFiles/Main2.dir/LectureStuff/MemoryManagement
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Main2
+
+
+#############################################
+# Link the executable Main2
+
+build Main2: C_EXECUTABLE_LINKER__Main2_Debug CMakeFiles/Main2.dir/LectureStuff/MemoryManagement/Main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/Main2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Main2
+  TARGET_PDB = Main2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MyStrings
+
+
+#############################################
+# Order-only phony target for MyStrings
+
+build cmake_object_order_depends_target_MyStrings: phony || .
+
+build CMakeFiles/MyStrings.dir/LectureStuff/MemoryManagement/MyStrings.c.o: C_COMPILER__MyStrings_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/LectureStuff/MemoryManagement/MyStrings.c || cmake_object_order_depends_target_MyStrings
+  DEP_FILE = CMakeFiles/MyStrings.dir/LectureStuff/MemoryManagement/MyStrings.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/MyStrings.dir
+  OBJECT_FILE_DIR = CMakeFiles/MyStrings.dir/LectureStuff/MemoryManagement
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MyStrings
+
+
+#############################################
+# Link the executable MyStrings
+
+build MyStrings: C_EXECUTABLE_LINKER__MyStrings_Debug CMakeFiles/MyStrings.dir/LectureStuff/MemoryManagement/MyStrings.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/MyStrings.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MyStrings
+  TARGET_PDB = MyStrings.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target StructBasics
+
+
+#############################################
+# Order-only phony target for StructBasics
+
+build cmake_object_order_depends_target_StructBasics: phony || .
+
+build CMakeFiles/StructBasics.dir/LectureStuff/Structures/StructBasics.c.o: C_COMPILER__StructBasics_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/LectureStuff/Structures/StructBasics.c || cmake_object_order_depends_target_StructBasics
+  DEP_FILE = CMakeFiles/StructBasics.dir/LectureStuff/Structures/StructBasics.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/StructBasics.dir
+  OBJECT_FILE_DIR = CMakeFiles/StructBasics.dir/LectureStuff/Structures
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StructBasics
+
+
+#############################################
+# Link the executable StructBasics
+
+build StructBasics: C_EXECUTABLE_LINKER__StructBasics_Debug CMakeFiles/StructBasics.dir/LectureStuff/Structures/StructBasics.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/StructBasics.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = StructBasics
+  TARGET_PDB = StructBasics.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target StructArraysAndPointers
+
+
+#############################################
+# Order-only phony target for StructArraysAndPointers
+
+build cmake_object_order_depends_target_StructArraysAndPointers: phony || .
+
+build CMakeFiles/StructArraysAndPointers.dir/LectureStuff/Structures/StructArraysAndPointers.c.o: C_COMPILER__StructArraysAndPointers_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/LectureStuff/Structures/StructArraysAndPointers.c || cmake_object_order_depends_target_StructArraysAndPointers
+  DEP_FILE = CMakeFiles/StructArraysAndPointers.dir/LectureStuff/Structures/StructArraysAndPointers.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/StructArraysAndPointers.dir
+  OBJECT_FILE_DIR = CMakeFiles/StructArraysAndPointers.dir/LectureStuff/Structures
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target StructArraysAndPointers
+
+
+#############################################
+# Link the executable StructArraysAndPointers
+
+build StructArraysAndPointers: C_EXECUTABLE_LINKER__StructArraysAndPointers_Debug CMakeFiles/StructArraysAndPointers.dir/LectureStuff/Structures/StructArraysAndPointers.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/StructArraysAndPointers.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = StructArraysAndPointers
+  TARGET_PDB = StructArraysAndPointers.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Enums
+
+
+#############################################
+# Order-only phony target for Enums
+
+build cmake_object_order_depends_target_Enums: phony || .
+
+build CMakeFiles/Enums.dir/LectureStuff/Structures/Enums.c.o: C_COMPILER__Enums_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/LectureStuff/Structures/Enums.c || cmake_object_order_depends_target_Enums
+  DEP_FILE = CMakeFiles/Enums.dir/LectureStuff/Structures/Enums.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Enums.dir
+  OBJECT_FILE_DIR = CMakeFiles/Enums.dir/LectureStuff/Structures
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Enums
+
+
+#############################################
+# Link the executable Enums
+
+build Enums: C_EXECUTABLE_LINKER__Enums_Debug CMakeFiles/Enums.dir/LectureStuff/Structures/Enums.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/Enums.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Enums
+  TARGET_PDB = Enums.dbg
 
 
 #############################################
@@ -1230,7 +1345,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug
 
-build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings
+build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings Scope PolarCoords Main2 MyStrings StructBasics StructArraysAndPointers Enums
 
 # =============================================================================
 # Built-in targets
@@ -1239,14 +1354,14 @@ build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LS
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

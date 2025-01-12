@@ -32,5 +32,12 @@
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersDataTypes.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersArrays.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PointersStrings.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Scope.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PolarCoords.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Main2.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/MyStrings.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/StructBasics.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/StructArraysAndPointers.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Enums.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
