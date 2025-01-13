@@ -59,6 +59,7 @@ int main(void)
         if (ret == 2)
         {
             longitudes[i] = lon;
+            latitudes[i] = lat;
             ++i;
         }
         else
