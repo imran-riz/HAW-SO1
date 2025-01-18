@@ -1373,6 +1373,37 @@ build SecondAssignment: C_EXECUTABLE_LINKER__SecondAssignment_Debug CMakeFiles/S
   TARGET_FILE = SecondAssignment
   TARGET_PDB = SecondAssignment.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target W2023-24
+
+
+#############################################
+# Order-only phony target for W2023-24
+
+build cmake_object_order_depends_target_W2023-24: phony || .
+
+build CMakeFiles/W2023-24.dir/ExamTasks/W2023-24.c.o: C_COMPILER__W2023-24_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/ExamTasks/W2023-24.c || cmake_object_order_depends_target_W2023-24
+  DEP_FILE = CMakeFiles/W2023-24.dir/ExamTasks/W2023-24.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/W2023-24.dir
+  OBJECT_FILE_DIR = CMakeFiles/W2023-24.dir/ExamTasks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target W2023-24
+
+
+#############################################
+# Link the executable W2023-24
+
+build W2023-24: C_EXECUTABLE_LINKER__W2023-24_Debug CMakeFiles/W2023-24.dir/ExamTasks/W2023-24.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/W2023-24.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = W2023-24
+  TARGET_PDB = W2023-24.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1407,7 +1438,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug
 
-build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings Scope PolarCoords Main2 MyStrings StructBasics StructArraysAndPointers Enums Lab5 SecondAssignment
+build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings Scope PolarCoords Main2 MyStrings StructBasics StructArraysAndPointers Enums Lab5 SecondAssignment W2023-24
 
 # =============================================================================
 # Built-in targets

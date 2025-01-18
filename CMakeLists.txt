@@ -46,3 +46,4 @@ add_executable(StructArraysAndPointers LectureStuff/Structures/StructArraysAndPo
 add_executable(Enums LectureStuff/Structures/Enums.c)
 add_executable(Lab5 LabWork/Lab5/FirstAssignment.c)
 add_executable(SecondAssignment LabWork/Lab5/SecondAssignment.c)
+add_executable(W2023-24 ExamTasks/W2023-24.c)
