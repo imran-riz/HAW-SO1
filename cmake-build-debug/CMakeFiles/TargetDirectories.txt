@@ -1,4 +1,3 @@
-/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Main.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Calculator.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Lec2.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/AfterLec2.dir
@@ -45,5 +44,6 @@
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/Test.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PrimeNumbers.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/DivisorsAndEuclideanAlgorithm.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/ArrayOperations.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

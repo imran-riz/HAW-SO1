@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
     int a [ ] = { 4 , 3 , 2 , 1 };
 
     printf("%d", *(a + 3) );
