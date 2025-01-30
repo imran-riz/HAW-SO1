@@ -1404,6 +1404,99 @@ build W2023-24: C_EXECUTABLE_LINKER__W2023-24_Debug CMakeFiles/W2023-24.dir/Exam
   TARGET_FILE = W2023-24
   TARGET_PDB = W2023-24.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Test
+
+
+#############################################
+# Order-only phony target for Test
+
+build cmake_object_order_depends_target_Test: phony || .
+
+build CMakeFiles/Test.dir/Basics/Test.c.o: C_COMPILER__Test_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/Basics/Test.c || cmake_object_order_depends_target_Test
+  DEP_FILE = CMakeFiles/Test.dir/Basics/Test.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Test.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test.dir/Basics
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test
+
+
+#############################################
+# Link the executable Test
+
+build Test: C_EXECUTABLE_LINKER__Test_Debug CMakeFiles/Test.dir/Basics/Test.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/Test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Test
+  TARGET_PDB = Test.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PrimeNumbers
+
+
+#############################################
+# Order-only phony target for PrimeNumbers
+
+build cmake_object_order_depends_target_PrimeNumbers: phony || .
+
+build CMakeFiles/PrimeNumbers.dir/Exercises/ExamTasks/PrimeNumbers.c.o: C_COMPILER__PrimeNumbers_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/Exercises/ExamTasks/PrimeNumbers.c || cmake_object_order_depends_target_PrimeNumbers
+  DEP_FILE = CMakeFiles/PrimeNumbers.dir/Exercises/ExamTasks/PrimeNumbers.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PrimeNumbers.dir
+  OBJECT_FILE_DIR = CMakeFiles/PrimeNumbers.dir/Exercises/ExamTasks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PrimeNumbers
+
+
+#############################################
+# Link the executable PrimeNumbers
+
+build PrimeNumbers: C_EXECUTABLE_LINKER__PrimeNumbers_Debug CMakeFiles/PrimeNumbers.dir/Exercises/ExamTasks/PrimeNumbers.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/PrimeNumbers.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = PrimeNumbers
+  TARGET_PDB = PrimeNumbers.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DivisorsAndEuclideanAlgorithm
+
+
+#############################################
+# Order-only phony target for DivisorsAndEuclideanAlgorithm
+
+build cmake_object_order_depends_target_DivisorsAndEuclideanAlgorithm: phony || .
+
+build CMakeFiles/DivisorsAndEuclideanAlgorithm.dir/Exercises/ExamTasks/DivisorsAndEuclideanAlgorithm.c.o: C_COMPILER__DivisorsAndEuclideanAlgorithm_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/Exercises/ExamTasks/DivisorsAndEuclideanAlgorithm.c || cmake_object_order_depends_target_DivisorsAndEuclideanAlgorithm
+  DEP_FILE = CMakeFiles/DivisorsAndEuclideanAlgorithm.dir/Exercises/ExamTasks/DivisorsAndEuclideanAlgorithm.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/DivisorsAndEuclideanAlgorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/DivisorsAndEuclideanAlgorithm.dir/Exercises/ExamTasks
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DivisorsAndEuclideanAlgorithm
+
+
+#############################################
+# Link the executable DivisorsAndEuclideanAlgorithm
+
+build DivisorsAndEuclideanAlgorithm: C_EXECUTABLE_LINKER__DivisorsAndEuclideanAlgorithm_Debug CMakeFiles/DivisorsAndEuclideanAlgorithm.dir/Exercises/ExamTasks/DivisorsAndEuclideanAlgorithm.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/DivisorsAndEuclideanAlgorithm.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DivisorsAndEuclideanAlgorithm
+  TARGET_PDB = DivisorsAndEuclideanAlgorithm.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1438,7 +1531,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug
 
-build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings Scope PolarCoords Main2 MyStrings StructBasics StructArraysAndPointers Enums Lab5 SecondAssignment W2023-24
+build all: phony Main Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings Scope PolarCoords Main2 MyStrings StructBasics StructArraysAndPointers Enums Lab5 SecondAssignment W2023-24 Test PrimeNumbers DivisorsAndEuclideanAlgorithm
 
 # =============================================================================
 # Built-in targets
