@@ -1497,6 +1497,68 @@ build ArrayOperations: C_EXECUTABLE_LINKER__ArrayOperations_Debug CMakeFiles/Arr
   TARGET_FILE = ArrayOperations
   TARGET_PDB = ArrayOperations.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target TwosComplement
+
+
+#############################################
+# Order-only phony target for TwosComplement
+
+build cmake_object_order_depends_target_TwosComplement: phony || .
+
+build CMakeFiles/TwosComplement.dir/LectureStuff/BitOperations/TwosComplement.c.o: C_COMPILER__TwosComplement_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/LectureStuff/BitOperations/TwosComplement.c || cmake_object_order_depends_target_TwosComplement
+  DEP_FILE = CMakeFiles/TwosComplement.dir/LectureStuff/BitOperations/TwosComplement.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/TwosComplement.dir
+  OBJECT_FILE_DIR = CMakeFiles/TwosComplement.dir/LectureStuff/BitOperations
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TwosComplement
+
+
+#############################################
+# Link the executable TwosComplement
+
+build TwosComplement: C_EXECUTABLE_LINKER__TwosComplement_Debug CMakeFiles/TwosComplement.dir/LectureStuff/BitOperations/TwosComplement.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/TwosComplement.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = TwosComplement
+  TARGET_PDB = TwosComplement.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2D_Vectors
+
+
+#############################################
+# Order-only phony target for 2D_Vectors
+
+build cmake_object_order_depends_target_2D_Vectors: phony || .
+
+build CMakeFiles/2D_Vectors.dir/PastExams/W2016-17/2D_Vectors.c.o: C_COMPILER__2D_Vectors_unscanned_Debug /Users/imran.rizwan/Documents/Uni/Semester$ 1/SO1/UniWorkC/PastExams/W2016-17/2D_Vectors.c || cmake_object_order_depends_target_2D_Vectors
+  DEP_FILE = CMakeFiles/2D_Vectors.dir/PastExams/W2016-17/2D_Vectors.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/2D_Vectors.dir
+  OBJECT_FILE_DIR = CMakeFiles/2D_Vectors.dir/PastExams/W2016-17
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2D_Vectors
+
+
+#############################################
+# Link the executable 2D_Vectors
+
+build 2D_Vectors: C_EXECUTABLE_LINKER__2D_Vectors_Debug CMakeFiles/2D_Vectors.dir/PastExams/W2016-17/2D_Vectors.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+  OBJECT_DIR = CMakeFiles/2D_Vectors.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2D_Vectors
+  TARGET_PDB = 2D_Vectors.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1531,7 +1593,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug
 
-build all: phony Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings Scope PolarCoords Main2 MyStrings StructBasics StructArraysAndPointers Enums Lab5 SecondAssignment W2023-24 Test PrimeNumbers DivisorsAndEuclideanAlgorithm ArrayOperations
+build all: phony Calculator Lec2 AfterLec2 AfterLec3 Lec3 Lec4 AfterLec4 LSL_Exam_Task Question_14_2 Dice AfterLec6 CleanInput LeibnizSeries Bisection Hemispheres Distances 1D_arrays ArrayDice EqualArrays MedianFilter Strings MemoryAllocation FindSubstring Pointers RouteLength MaximumDistance W2022-23 ArraysPointers MultidimensionalArrays PointersFundamentals PointersDataTypes PointersArrays PointersStrings Scope PolarCoords Main2 MyStrings StructBasics StructArraysAndPointers Enums Lab5 SecondAssignment W2023-24 Test PrimeNumbers DivisorsAndEuclideanAlgorithm ArrayOperations TwosComplement 2D_Vectors
 
 # =============================================================================
 # Built-in targets

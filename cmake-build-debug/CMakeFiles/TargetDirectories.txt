@@ -45,5 +45,7 @@
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/PrimeNumbers.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/DivisorsAndEuclideanAlgorithm.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/ArrayOperations.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/TwosComplement.dir
+/Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/2D_Vectors.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/imran.rizwan/Documents/Uni/Semester 1/SO1/UniWorkC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
