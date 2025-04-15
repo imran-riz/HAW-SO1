@@ -33,6 +33,8 @@ int main(void)
     printf("<a1, a2> = %.1f \n", dotProduct2D(a1, a2));
 
     getchar();
+
+    // added a new comment
     return 0;
 }
 
